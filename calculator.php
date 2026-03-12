@@ -905,6 +905,13 @@ function exportCSV(type) {
 	var rows = [];
 	var filename = 'bodafasta-';
 
+	// Company header
+	rows.push(['BODAFASTA TANZANIA']);
+	rows.push(['Motorcycle Transportation Investment']);
+	rows.push(['Phone: +255 767 306 986', 'Email: Victorion@gmail.com']);
+	rows.push(['Location: Dar es Salaam, Tanzania', 'Web: bodafasta.com']);
+	rows.push([]);
+
 	if (type === 'share') {
 		var amount = parseAmount(document.getElementById('shareAmountInput').value);
 		var shares = Math.floor(amount / sharePrice);
@@ -941,6 +948,12 @@ function exportCSV(type) {
 		filename += 'bond-projection-' + bondProjectionYears + 'yrs.csv';
 	}
 
+	// Footer
+	rows.push([]);
+	rows.push(['Generated on ' + new Date().toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'})]);
+	rows.push(['This is an estimate based on Bodafasta financial projections. Actual returns may vary.']);
+	rows.push(['Visit bodafasta.com for full investment details.']);
+
 	var csv = rows.map(function(r) { return r.join(','); }).join('\n');
 	var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
 	var link = document.createElement('a');
@@ -951,28 +964,103 @@ function exportCSV(type) {
 }
 
 function printProjection(type) {
-	var table;
-	var title;
+	var table, title, subtitle;
 	if (type === 'share') {
 		table = document.getElementById('shareProjectionTable').outerHTML;
 		var amount = parseAmount(document.getElementById('shareAmountInput').value);
 		var shares = Math.floor(amount / sharePrice);
-		title = 'Bodafasta Share Investment &mdash; ' + shares + ' Share' + (shares > 1 ? 's' : '') + ' &mdash; ' + shareProjectionYears + ' Year Projection';
+		title = 'Share Investment Projection';
+		subtitle = shares + ' Share' + (shares > 1 ? 's' : '') + ' &mdash; ' + shareProjectionYears + ' Year Projection';
 	} else {
 		table = document.getElementById('bondProjectionTable').outerHTML;
 		var amount = parseAmount(document.getElementById('bondAmountInput').value);
 		var bonds = Math.floor(amount / bondPrice);
-		title = 'Bodafasta Bond Investment &mdash; ' + bonds.toLocaleString('en-US') + ' Bond' + (bonds > 1 ? 's' : '') + ' &mdash; ' + bondProjectionYears + ' Year Projection';
+		title = 'Bond Investment Projection';
+		subtitle = bonds.toLocaleString('en-US') + ' Bond' + (bonds > 1 ? 's' : '') + ' &mdash; ' + bondProjectionYears + ' Year Projection';
 	}
 
+	var dateStr = new Date().toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'});
+	var logoUrl = window.location.origin + window.location.pathname.replace(/[^\/]*$/, '') + 'images/logo.png';
+
 	var win = window.open('', '_blank');
-	win.document.write('<!DOCTYPE html><html><head><meta charset="UTF-8"><title>' + title + '</title>');
-	win.document.write('<style>body{font-family:Arial,sans-serif;padding:40px;color:#333;}h2{color:#116cd1;margin-bottom:5px;}p{color:#777;margin-bottom:20px;}table{width:100%;border-collapse:collapse;}th{background:#116cd1;color:#fff;padding:10px 15px;text-align:left;}td{padding:10px 15px;border-bottom:1px solid #ddd;}tr:nth-child(even){background:#f8f9fa;}tr:last-child td{font-weight:700;background:#f0f7ff;border-bottom:2px solid #116cd1;}.footer{margin-top:30px;font-size:12px;color:#999;border-top:1px solid #eee;padding-top:15px;}</style>');
-	win.document.write('</head><body>');
-	win.document.write('<h2>' + title + '</h2>');
-	win.document.write('<p>Generated on ' + new Date().toLocaleDateString('en-US', {year:'numeric',month:'long',day:'numeric'}) + '</p>');
+	win.document.write('<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Bodafasta &mdash; ' + title + '</title>');
+	win.document.write('<style>');
+	win.document.write('*{margin:0;padding:0;box-sizing:border-box;}');
+	win.document.write('body{font-family:"Segoe UI",Arial,sans-serif;color:#333;background:#fff;}');
+	win.document.write('@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact;}}');
+
+	// Header
+	win.document.write('.doc-header{background:linear-gradient(135deg,#0a1628 0%,#116cd1 100%);color:#fff;padding:30px 40px;display:flex;align-items:center;justify-content:space-between;}');
+	win.document.write('.doc-header .logo-side{display:flex;align-items:center;gap:18px;}');
+	win.document.write('.doc-header .logo-side img{height:52px;filter:brightness(0) invert(1);}');
+	win.document.write('.doc-header .logo-side .brand{display:flex;flex-direction:column;}');
+	win.document.write('.doc-header .logo-side .brand-name{font-size:22px;font-weight:700;letter-spacing:1px;}');
+	win.document.write('.doc-header .logo-side .brand-tag{font-size:11px;opacity:.75;margin-top:2px;letter-spacing:.5px;}');
+	win.document.write('.doc-header .contact-side{text-align:right;font-size:12px;line-height:1.9;opacity:.9;}');
+	win.document.write('.doc-header .contact-side a{color:#fff;text-decoration:none;}');
+	win.document.write('.doc-header .contact-side .c-icon{display:inline-block;width:16px;text-align:center;margin-right:5px;opacity:.7;}');
+
+	// Blue accent bar
+	win.document.write('.accent-bar{height:4px;background:linear-gradient(90deg,#116cd1 0%,#4da3ff 50%,#116cd1 100%);}');
+
+	// Title section
+	win.document.write('.title-section{padding:30px 40px 20px;border-bottom:1px solid #e8e8e8;}');
+	win.document.write('.title-section h1{font-size:22px;color:#116cd1;font-weight:700;margin-bottom:4px;}');
+	win.document.write('.title-section .subtitle{font-size:14px;color:#555;font-weight:500;}');
+	win.document.write('.title-section .doc-meta{display:flex;gap:30px;margin-top:12px;font-size:11px;color:#888;}');
+	win.document.write('.title-section .doc-meta span{display:flex;align-items:center;gap:5px;}');
+
+	// Table
+	win.document.write('.table-wrap{padding:20px 40px 30px;}');
+	win.document.write('table{width:100%;border-collapse:collapse;font-size:13px;}');
+	win.document.write('th{background:#116cd1;color:#fff;padding:11px 15px;text-align:left;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.5px;}');
+	win.document.write('td{padding:10px 15px;border-bottom:1px solid #e5e5e5;}');
+	win.document.write('tr:nth-child(even){background:#f7f9fc;}');
+	win.document.write('tr:last-child td{font-weight:700;background:#eaf2ff;border-bottom:2px solid #116cd1;}');
+
+	// Footer
+	win.document.write('.doc-footer{margin:0 40px;padding:20px 0;border-top:2px solid #116cd1;display:flex;justify-content:space-between;align-items:flex-start;font-size:11px;color:#999;}');
+	win.document.write('.doc-footer .left{max-width:55%;line-height:1.7;}');
+	win.document.write('.doc-footer .right{text-align:right;line-height:1.7;}');
+	win.document.write('.doc-footer .right a{color:#116cd1;text-decoration:none;}');
+	win.document.write('.doc-footer .disclaimer{font-style:italic;}');
+
+	win.document.write('</style></head><body>');
+
+	// Header with logo + contact
+	win.document.write('<div class="doc-header">');
+	win.document.write('<div class="logo-side"><img src="' + logoUrl + '" alt="Bodafasta"><div class="brand"><span class="brand-name">BODAFASTA</span><span class="brand-tag">Motorcycle Transportation &bull; Tanzania</span></div></div>');
+	win.document.write('<div class="contact-side">');
+	win.document.write('<div><span class="c-icon">&#9742;</span>+255 767 306 986</div>');
+	win.document.write('<div><span class="c-icon">&#9993;</span><a href="mailto:Victorion@gmail.com">Victorion@gmail.com</a></div>');
+	win.document.write('<div><span class="c-icon">&#9873;</span>Dar es Salaam, Tanzania</div>');
+	win.document.write('<div><span class="c-icon">&#127760;</span><a href="https://bodafasta.com">bodafasta.com</a></div>');
+	win.document.write('</div></div>');
+
+	// Accent bar
+	win.document.write('<div class="accent-bar"></div>');
+
+	// Title section
+	win.document.write('<div class="title-section">');
+	win.document.write('<h1>' + title + '</h1>');
+	win.document.write('<div class="subtitle">' + subtitle + '</div>');
+	win.document.write('<div class="doc-meta">');
+	win.document.write('<span>&#128197; Generated: ' + dateStr + '</span>');
+	win.document.write('<span>&#128200; Investment Type: ' + (type === 'share' ? 'Equity Share' : 'Fixed-Return Bond') + '</span>');
+	win.document.write('<span>&#128176; Amount: ' + formatTZS(type === 'share' ? Math.floor(parseAmount(document.getElementById('shareAmountInput').value) / sharePrice) * sharePrice : Math.floor(parseAmount(document.getElementById('bondAmountInput').value) / bondPrice) * bondPrice) + '</span>');
+	win.document.write('</div></div>');
+
+	// Table
+	win.document.write('<div class="table-wrap">');
 	win.document.write(table);
-	win.document.write('<div class=\"footer\">This is an estimate based on Bodafasta financial projections. Actual returns may vary. Visit bodafasta.com for full details.</div>');
+	win.document.write('</div>');
+
+	// Footer
+	win.document.write('<div class="doc-footer">');
+	win.document.write('<div class="left"><div class="disclaimer">This is an estimate based on Bodafasta financial projections. Actual returns may vary based on market conditions and business performance.</div><div style="margin-top:6px;">For full investment details visit <a href="https://bodafasta.com" style="color:#116cd1;">bodafasta.com</a> or contact us directly.</div></div>');
+	win.document.write('<div class="right"><strong style="color:#333;">Bodafasta Tanzania</strong><br>Dar es Salaam, Tanzania<br><a href="https://share.google/XMSp50emSaLLvYFLx">View Our Location</a></div>');
+	win.document.write('</div>');
+
 	win.document.write('</body></html>');
 	win.document.close();
 	win.print();
