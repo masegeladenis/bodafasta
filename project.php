@@ -101,7 +101,6 @@
 						
 					</div>
 				</div>
-				
 				<!-- Column -->
 				<div class="column col-lg-6 col-md-12 col-sm-12">
 					<div class="gallery-block">
