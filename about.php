@@ -119,7 +119,7 @@
 							<h5>Get In Touch</h5>
 							
 							<div class="consult-form">
-								<form method="post" action="/contact">
+								<form method="post" action="contact">
 
 									<!--Form Group-->
 									<div class="form-group">

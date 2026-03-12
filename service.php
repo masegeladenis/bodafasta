@@ -32,7 +32,7 @@
 			<div class="content-box">
 				<h2>Our <span>Services</span></h2>
 				<div class="text">Bodafasta provides safe, reliable, and technology-driven motorcycle transportation and delivery services across Tanzania.</div>
-				<a href="/contact" class="theme-btn btn-style-one"><span class="txt">get in touch</span></a>
+				<a href="contact" class="theme-btn btn-style-one"><span class="txt">get in touch</span></a>
 				
 				<!-- Lower Box -->
 				<div class="lower-box clearfix">
@@ -69,9 +69,9 @@
 							<div class="icon-box">
 								<span class="icon ti-car"></span>
 							</div>
-							<h5><a href="/service-detail">On-Demand Rides</a></h5>
+							<h5><a href="service-detail">On-Demand Rides</a></h5>
 							<div class="text">Instant motorcycle ride-hailing for fast, affordable transportation across the city.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -81,9 +81,9 @@
 							<div class="icon-box">
 								<span class="icon ti-package"></span>
 							</div>
-							<h5><a href="/service-detail">Parcel Delivery</a></h5>
+							<h5><a href="service-detail">Parcel Delivery</a></h5>
 							<div class="text">Swift and secure parcel delivery services for individuals and businesses.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -93,9 +93,9 @@
 							<div class="icon-box">
 								<span class="icon ti-timer"></span>
 							</div>
-							<h5><a href="/service-detail">Scheduled Rides</a></h5>
+							<h5><a href="service-detail">Scheduled Rides</a></h5>
 							<div class="text">Pre-book your rides in advance for guaranteed punctual transportation.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -105,9 +105,9 @@
 							<div class="icon-box">
 								<span class="icon ti-mobile"></span>
 							</div>
-							<h5><a href="/service-detail">Bodafasta App</a></h5>
+							<h5><a href="service-detail">Bodafasta App</a></h5>
 							<div class="text">Our technology platform connecting riders and drivers seamlessly.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -117,9 +117,9 @@
 							<div class="icon-box">
 								<span class="icon ti-shield"></span>
 							</div>
-							<h5><a href="/service-detail">Safety & Insurance</a></h5>
+							<h5><a href="service-detail">Safety & Insurance</a></h5>
 							<div class="text">Comprehensive insurance and safety protocols for every ride taken.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -129,9 +129,9 @@
 							<div class="icon-box">
 								<span class="icon ti-location-pin"></span>
 							</div>
-							<h5><a href="/service-detail">GPS Tracking</a></h5>
+							<h5><a href="service-detail">GPS Tracking</a></h5>
 							<div class="text">Real-time GPS tracking on every motorcycle for safety and transparency.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -141,9 +141,9 @@
 							<div class="icon-box">
 								<span class="icon ti-user"></span>
 							</div>
-							<h5><a href="/service-detail">Driver Training</a></h5>
+							<h5><a href="service-detail">Driver Training</a></h5>
 							<div class="text">Professional training programs ensuring skilled and responsible drivers.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -153,9 +153,9 @@
 							<div class="icon-box">
 								<span class="icon ti-truck"></span>
 							</div>
-							<h5><a href="/service-detail">B2B Logistics</a></h5>
+							<h5><a href="service-detail">B2B Logistics</a></h5>
 							<div class="text">Business logistics solutions for last-mile delivery and fleet partnerships.</div>
-							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -178,7 +178,7 @@
 							<h5>Get In Touch</h5>
 							
 							<div class="consult-form">
-								<form method="post" action="/contact">
+								<form method="post" action="contact">
 
 									<!--Form Group-->
 									<div class="form-group">

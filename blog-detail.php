@@ -30,7 +30,7 @@
     <div class="page-title-section style-two">
     	<div class="auto-container">
 			<ul class="post-meta">
-				<li><a href="/">Home</a></li>
+				<li><a href="index">Home</a></li>
 				<li>News Detail</li>
 			</ul>
 			<h2>Bodafasta Launches Pilot Fleet of 5 <br> Motorcycles in Dar es Salaam</h2>
@@ -83,11 +83,11 @@
 							<div class="news-block-four col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box">
 									<div class="image">
-										<a href="/blog-detail"><img src="images/resource/news-4.jpg" alt="Bodafasta Safety" /></a>
+										<a href="blog-detail"><img src="images/resource/news-4.jpg" alt="Bodafasta Safety" /></a>
 									</div>
 									<div class="lower-content">
 										<div class="title">Safety</div>
-										<h4><a href="/blog-detail">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
+										<h4><a href="blog-detail">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
 									</div>
 								</div>
 							</div>
@@ -96,11 +96,11 @@
 							<div class="news-block-four col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box">
 									<div class="image">
-										<a href="/blog-detail"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
+										<a href="blog-detail"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
 									</div>
 									<div class="lower-content">
 										<div class="title">Investment</div>
-										<h4><a href="/blog-detail">Why Bodaboda Is East Africa's Next Big Opportunity</a></h4>
+										<h4><a href="blog-detail">Why Bodaboda Is East Africa's Next Big Opportunity</a></h4>
 									</div>
 								</div>
 							</div>
@@ -119,7 +119,7 @@
 							<div class="sidebar-title">
                             	<h4>Search</h4>
                             </div>
-						<form method="post" action="/blog">
+						<form method="post" action="blog">
                                 <div class="form-group">
                                     <input type="search" name="search-field" value="" placeholder="Search news..." required>
                                     <button type="submit"><span class="icon fa fa-search"></span></button>
@@ -148,18 +148,18 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="/blog-detail"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="/blog-detail">Bodafasta App Development: From Vision to Platform</a></div>
+                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-detail">Bodafasta App Development: From Vision to Platform</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="/blog-detail"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="/blog-detail">How Bodafasta Ensures Rider Safety With Technology</a></div>
+                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-detail">How Bodafasta Ensures Rider Safety With Technology</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="/blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="/blog-detail">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
+                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-detail">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                             </div>
 						</div>
@@ -194,7 +194,7 @@
 						<div class="comment-text">Your email address will not be published</div>
 					</div>
 					<!--Comment Form-->
-					<form method="post" action="/blog">
+					<form method="post" action="blog">
 						<div class="row clearfix">
 							<div class="col-md-12 col-sm-12 col-xs-12 form-group">
 								<input type="text" name="username" placeholder="Name *" required>
@@ -236,7 +236,7 @@
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>
-	<form method="post" action="/blog">
+	<form method="post" action="blog">
 		<div class="form-group">
 			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
 			<button type="submit"><i class="fa fa-search"></i></button>

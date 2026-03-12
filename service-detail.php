@@ -56,7 +56,7 @@
 											<div class="icon-box">
 												<span class="icon ti-location-pin"></span>
 											</div>
-											<h5><a href="/service-detail">Real-Time GPS Tracking</a></h5>
+											<h5><a href="service-detail">Real-Time GPS Tracking</a></h5>
 											<div class="text">Track every ride in real-time for safety and transparency.</div>
 										</div>
 									</div>
@@ -67,7 +67,7 @@
 											<div class="icon-box">
 												<span class="icon ti-credit-card"></span>
 											</div>
-											<h5><a href="/service-detail">Digital Payments</a></h5>
+											<h5><a href="service-detail">Digital Payments</a></h5>
 											<div class="text">Mobile money and cashless payment options for convenience.</div>
 										</div>
 									</div>
@@ -78,7 +78,7 @@
 											<div class="icon-box">
 												<span class="icon ti-timer"></span>
 											</div>
-											<h5><a href="/service-detail">Ride Scheduling</a></h5>
+											<h5><a href="service-detail">Ride Scheduling</a></h5>
 											<div class="text">Pre-book rides in advance for guaranteed punctual service.</div>
 										</div>
 									</div>
@@ -164,7 +164,7 @@
                         <div class="sidebar-widget categories-widget">
 							
                         	<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-car"></div>
 									<h6>On-Demand Rides</h6>
@@ -172,7 +172,7 @@
 							</div>
 							
 							<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-package"></div>
 									<h6>Parcel Delivery</h6>
@@ -180,7 +180,7 @@
 							</div>
 							
 							<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-timer"></div>
 									<h6>Scheduled Rides</h6>
@@ -188,7 +188,7 @@
 							</div>
 							
 							<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-mobile"></div>
 									<h6>Bodafasta App</h6>
@@ -196,7 +196,7 @@
 							</div>
 							
 							<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-shield"></div>
 									<h6>Safety & Insurance</h6>
@@ -204,7 +204,7 @@
 							</div>
 							
 							<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-location-pin"></div>
 									<h6>GPS Tracking</h6>
@@ -212,7 +212,7 @@
 							</div>
 							
 							<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-user"></div>
 									<h6>Driver Training Program</h6>
@@ -220,7 +220,7 @@
 							</div>
 							
 							<div class="category-boxed">
-								<a href="/service-detail" class="overlay-link"></a>
+								<a href="service-detail" class="overlay-link"></a>
 								<div class="boxed-inner">
 									<div class="icon ti-truck"></div>
 									<h6>B2B Logistics & Delivery</h6>
@@ -247,7 +247,7 @@
 								<h4>Business Enquiry</h4>
 								<div class="text">Interested in partnering or investing? Send us an email or call us directly.</div>
 								<div class="number">Call :<a href="tel:+255767306986">(+255) 767 306 986</a></div>
-								<a href="/contact" class="theme-btn btn-style-two"><span class="txt">Contact Us</span></a>
+								<a href="contact" class="theme-btn btn-style-two"><span class="txt">Contact Us</span></a>
 							</div>
 						</div>
 						

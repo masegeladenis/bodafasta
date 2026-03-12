@@ -30,7 +30,7 @@
     <div class="page-title-section">
     	<div class="auto-container">
 			<ul class="post-meta">
-				<li><a href="/">Home</a></li>
+				<li><a href="index">Home</a></li>
 				<li>Investment Details</li>
 			</ul>
 			<h2><span>Investment</span> Opportunity Details</h2>
@@ -183,7 +183,7 @@
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>
-	<form method="post" action="/blog">
+	<form method="post" action="blog">
 		<div class="form-group">
 			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
 			<button type="submit"><i class="fa fa-search"></i></button>

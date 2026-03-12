@@ -261,7 +261,7 @@
 	<div class="page-title-section">
 		<div class="auto-container">
 			<ul class="post-meta">
-				<li><a href="/">Home</a></li>
+				<li><a href="index">Home</a></li>
 				<li>Investment Calculator</li>
 			</ul>
 			<h2><span>Investment</span> Calculator</h2>
@@ -322,9 +322,9 @@
 										<img src="images/gallery/4.jpg" alt="Asset-Backed Fleet" />
 										<div class="overlay-box">
 											<div class="overlay-inner">
-												<h3><a href="/project-details">Asset-Backed Fleet</a></h3>
+												<h3><a href="project-details">Asset-Backed Fleet</a></h3>
 												<div class="designation">GPS Tracked &amp; Insured</div>
-												<a href="/project-details" class="arrow ti-angle-right"></a>
+												<a href="project-details" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
 									</div>
@@ -398,9 +398,9 @@
 							<div class="icon-box">
 								<span class="icon ti-shield"></span>
 							</div>
-							<h5><a href="/project-details">Asset-Backed</a></h5>
+							<h5><a href="project-details">Asset-Backed</a></h5>
 							<div class="text">All investments are backed by physical motorcycle fleet assets â€” GPS tracked, insured, and revenue-generating.</div>
-							<a class="read-more" href="/project-details">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="project-details">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 
@@ -596,8 +596,8 @@
 
 			<!-- CTA and Disclaimer -->
 			<div class="text-center" style="margin-top:30px;">
-				<a href="/contact" class="theme-btn btn-style-one"><span class="txt">Contact Us to Invest</span></a>
-				<a href="/project-details" class="theme-btn btn-style-one" style="margin-left:15px;"><span class="txt">View Full Projections</span></a>
+				<a href="contact" class="theme-btn btn-style-one"><span class="txt">Contact Us to Invest</span></a>
+				<a href="project-details" class="theme-btn btn-style-one" style="margin-left:15px;"><span class="txt">View Full Projections</span></a>
 			</div>
 
 			<div class="disclaimer-box">
@@ -618,7 +618,7 @@
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>
-	<form method="post" action="/blog">
+	<form method="post" action="blog">
 		<div class="form-group">
 			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
 			<button type="submit"><i class="fa fa-search"></i></button>
