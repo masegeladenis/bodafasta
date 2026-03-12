@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Bodafasta App - Technology-Driven Motorcycle Transportation</title>
-<meta name="description" content="Discover the Bodafasta App â€” ride-hailing, parcel delivery, GPS tracking, and digital payments for motorcycle transportation in Tanzania."/>
+<meta name="description" content="Discover the Bodafasta App &mdash; ride-hailing, parcel delivery, GPS tracking, and digital payments for motorcycle transportation in Tanzania."/>
 
 <?php include 'includes/headlink.php'; ?>
 
@@ -15,7 +15,7 @@
 <meta property="og:url" content="service-detail.php" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
 <meta property="og:image" content="images/about/home-about.png" />
-<meta property="og:description" content="Discover the Bodafasta App â€” ride-hailing, parcel delivery, GPS tracking, and digital payments for motorcycle transportation in Tanzania." />
+<meta property="og:description" content="Discover the Bodafasta App &mdash; ride-hailing, parcel delivery, GPS tracking, and digital payments for motorcycle transportation in Tanzania." />
 
 </head>
 
@@ -30,7 +30,7 @@
     	<div class="auto-container">
 			<!-- Service Title Box -->
 			<div class="service-title-box">
-				<h2>The Bodafasta App â€” Your Ride, Delivered</h2>
+				<h2>The Bodafasta App &mdash; Your Ride, Delivered</h2>
 			</div>
         	<div class="row clearfix">
             	
@@ -43,9 +43,9 @@
 							</div>
 							<div class="lower-content">
 								<p>The Bodafasta App is a technology platform that connects passengers and businesses with our trained, professional motorcycle drivers. With features like real-time GPS tracking, digital payments, ride scheduling, and instant ride-hailing, the app delivers a seamless and safe experience for all users in Tanzania.</p>
-								<p>Designed with both riders and drivers in mind, the Bodafasta App ensures transparency through fare estimation, trip tracking, and driver ratings. For businesses, it offers B2B logistics solutions including last-mile delivery, scheduled pickups, and fleet management tools â€” all accessible from a single intuitive interface.</p>
+								<p>Designed with both riders and drivers in mind, the Bodafasta App ensures transparency through fare estimation, trip tracking, and driver ratings. For businesses, it offers B2B logistics solutions including last-mile delivery, scheduled pickups, and fleet management tools &mdash; all accessible from a single intuitive interface.</p>
 								<blockquote>
-									Bodafasta â€” Revolutionizing bodaboda transportation in Tanzania through technology, safety, and professionalism.
+									Bodafasta &mdash; Revolutionizing bodaboda transportation in Tanzania through technology, safety, and professionalism.
 								</blockquote>
 								<h4>Core App Features</h4>
 								<div class="row clearfix">
@@ -122,7 +122,7 @@
 											<div class="acc-btn active"><div class="icon-outer"><span class="icon icofont-plus"></span> <span class="icon icofont-minus"></span></div>How do I book a ride with Bodafasta?</div>
 											<div class="acc-content current">
 												<div class="content">
-													<div class="accordian-text">You can book a ride through the Bodafasta App â€” available for Android and iOS. Simply enter your pickup and destination, confirm your ride, and a trained driver will be assigned to you within minutes. You can also call us directly at +255 767 306 986.</div>
+													<div class="accordian-text">You can book a ride through the Bodafasta App &mdash; available for Android and iOS. Simply enter your pickup and destination, confirm your ride, and a trained driver will be assigned to you within minutes. You can also call us directly at +255 767 306 986.</div>
 												</div>
 											</div>
 										</li>

@@ -58,9 +58,9 @@
 							</div>
 							<div class="text">
 								<p>Bodafasta is a Tanzanian startup revolutionizing motorcycle (bodaboda) transportation through a unique model of company-owned fleets, a technology-driven ride-hailing and delivery app, and comprehensive driver training programs. Founded by Victor Kajala, we are building a safer, more reliable, and scalable alternative to the fragmented bodaboda industry.</p>
-								<p>With over 2.1 million motorcycles operating across Tanzania, the bodaboda sector is a vital part of daily life â€” yet plagued by safety concerns, inconsistent service, and lack of professionalism. Bodafasta addresses these challenges head-on with asset ownership, GPS tracking, insurance coverage, and rigorous driver welfare standards.</p>
+								<p>With over 2.1 million motorcycles operating across Tanzania, the bodaboda sector is a vital part of daily life &mdash; yet plagued by safety concerns, inconsistent service, and lack of professionalism. Bodafasta addresses these challenges head-on with asset ownership, GPS tracking, insurance coverage, and rigorous driver welfare standards.</p>
 							</div>
-							<div class="signature">Victor <span>Kajala â€” Founder</span></div>
+							<div class="signature">Victor <span>Kajala &mdash; Founder</span></div>
 						</div>
 					</div>
 					
@@ -88,7 +88,7 @@
 							<div class="reputation-block">
 								<div class="inner-box">
 									<h5>Asset Ownership Model</h5>
-									<div class="text">Unlike competitors who rely on driver-owned vehicles, Bodafasta owns <br> its entire fleet â€” ensuring quality, branding consistency, and control.</div>
+									<div class="text">Unlike competitors who rely on driver-owned vehicles, Bodafasta owns <br> its entire fleet &mdash; ensuring quality, branding consistency, and control.</div>
 								</div>
 							</div>
 							

@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Bodafasta Blog Detail - Motorcycle Transportation Tanzania</title>
-<meta name="description" content="Read the latest updates and insights from Bodafasta Tanzania â€” motorcycle transportation, logistics, investment, and technology."/>
+<meta name="description" content="Read the latest updates and insights from Bodafasta Tanzania &mdash; motorcycle transportation, logistics, investment, and technology."/>
 
 <?php include 'includes/headlink.php'; ?>
 
@@ -52,12 +52,12 @@
 							</div>
 							<div class="lower-content">
 								<div class="post-info"><span class="theme_color">business</span> -  December 14th, 2020 by <i>Admin</i></div>
-								<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether itâ€™s because weâ€™re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: â€œMidway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friendsâ€™ embarrassment, the failing career, the dwindling income, the repossessed house, the divorceâ€¦â€ We know self-censoring by many names. Carl Jung called it our â€œinner critic.â€ Michael Ray and Rochelle Myers called it the â€œvoice of judgmentâ€ in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friendsâ€™ embarrassment, the failing career, the dwindling income, the repossessed </p>
+								<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it's because we're too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: &ldquo;Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends' embarrassment, the failing career, the dwindling income, the repossessed house, the divorce&hellip;&rdquo; We know self-censoring by many names. Carl Jung called it our &ldquo;inner critic.&rdquo; Michael Ray and Rochelle Myers called it the &ldquo;voice of judgment&rdquo; in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends' embarrassment, the failing career, the dwindling income, the repossessed </p>
 								<div class="middle-image">
 									<img src="images/resource/news-10.jpg" alt="" />
 								</div>
-								<h4>Gathered Was Isnâ€™t Fruitful Every</h4>
-								<p>Give void had the creature man evening two be for heaven wonâ€™t youâ€™re may. Subdue him. Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue youâ€™ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree youâ€™re two beast, moved, every. Evening their us seas.</p>
+								<h4>Gathered Was Isn't Fruitful Every</h4>
+								<p>Give void had the creature man evening two be for heaven won't you're may. Subdue him. Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you'll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you're two beast, moved, every. Evening their us seas.</p>
 								<blockquote>
 									<div class="blockquote-text"><span class="quote icofont-quote-left"></span>Our greatest weakness lies in giving up. <br> The most certain way to succeed is always to <br> try just one more time.</div>
 								</blockquote>

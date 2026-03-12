@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Bodafasta News & Updates - Motorcycle Transportation Tanzania</title>
-<meta name="description" content="Latest news and updates from Bodafasta Tanzania â€” motorcycle ride services, logistics, technology, and investment opportunities."/>
+<meta name="description" content="Latest news and updates from Bodafasta Tanzania &mdash; motorcycle ride services, logistics, technology, and investment opportunities."/>
 
 <?php include 'includes/headlink.php'; ?>
 
@@ -15,7 +15,7 @@
 <meta property="og:url" content="blog.php" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
 <meta property="og:image" content="images/about/home-about.png" />
-<meta property="og:description" content="Latest news and updates from Bodafasta Tanzania â€” motorcycle transportation, logistics, and investment." />
+<meta property="og:description" content="Latest news and updates from Bodafasta Tanzania &mdash; motorcycle transportation, logistics, and investment." />
 
 </head>
 

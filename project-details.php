@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Bodafasta Investment Details - USD 147,500 for 20% Equity</title>
-<meta name="description" content="Detailed investment breakdown for Bodafasta Tanzania. USD 147,500 seed funding for 20% equity â€” fleet acquisition, app development, and operational setup."/>
+<meta name="description" content="Detailed investment breakdown for Bodafasta Tanzania. USD 147,500 seed funding for 20% equity &mdash; fleet acquisition, app development, and operational setup."/>
 
 <?php include 'includes/headlink.php'; ?>
 
@@ -53,7 +53,7 @@
 
 								<div class="details-list">
 									<label>Founded</label>
-									<span>2024 â€” Dar es Salaam, Tanzania</span>
+									<span>2024 &mdash; Dar es Salaam, Tanzania</span>
 								</div>
 
 								<div class="details-list">
@@ -96,11 +96,11 @@
 											their websites to connect with current and prospective customers.</p>
 									</div>
 									<div class="content mb-25">
-										<p>It is. In fact, â€œconstantâ€ internet usage among
+										<p>It is. In fact, &ldquo;constant&rdquo; internet usage among
 											adults increased by 5% in just the last three years, according to
 											Pew Research. And although we say it a lot, the way people shop and
-											buy really has changed along with it â€” meaning offline marketing
-											isnâ€™t as effective as it used to be.</p>
+											buy really has changed along with it &mdash; meaning offline marketing
+											isn't as effective as it used to be.</p>
 									</div>
 									<div class="content mb-60">
 										<p>Marketing has always been about connecting with your

@@ -33,7 +33,7 @@
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
 							<div class="author">Early Rider Feedback <span>/ Dar es Salaam Pilot</span></div>
-							<div class="text">The difference with Bodafasta is clear — the motorcycles are well-maintained, the drivers are professional and know the routes, and I feel safe knowing there's GPS tracking and insurance. This is how bodaboda should be.</div>
+							<div class="text">The difference with Bodafasta is clear &mdash; the motorcycles are well-maintained, the drivers are professional and know the routes, and I feel safe knowing there's GPS tracking and insurance. This is how bodaboda should be.</div>
 						</div>
 					</div>
 					
@@ -42,7 +42,7 @@
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
 							<div class="author">Growth Projection <span>/ Financial Model 2025-2027</span></div>
-							<div class="text">With projected revenue of TZS 336M in Year 1, scaling to TZS 7.2B by Year 3, and a clear path to local manufacturing — Bodafasta offers investors a compelling entry point into East Africa's fastest-growing urban mobility sector.</div>
+							<div class="text">With projected revenue of TZS 336M in Year 1, scaling to TZS 7.2B by Year 3, and a clear path to local manufacturing &mdash; Bodafasta offers investors a compelling entry point into East Africa's fastest-growing urban mobility sector.</div>
 						</div>
 					</div>
 					
