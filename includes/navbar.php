@@ -1,4 +1,4 @@
-    <!-- Main Header-->
+﻿    <!-- Main Header-->
     <header class="main-header style-two">
     	
 		<!-- Header Top -->
@@ -11,7 +11,7 @@
 						<ul class="info-list">
 							<li><a href="mailto:Victorion@gmail.com"><span class="icon icofont-envelope"></span> Victorion@gmail.com</a></li>
 							<li><a href="tel:+255767306986"><span class="icon icofont-phone"></span> +255 767 306 986</a></li>
-							<li><a href="contact.php"><span class="icon icofont-clock-time"></span> Dar es Salaam, Tanzania</a></li>
+							<li><a href="/contact"><span class="icon icofont-clock-time"></span> Dar es Salaam, Tanzania</a></li>
 						</ul>
 					</div>
 					
@@ -38,7 +38,7 @@
             	<div class="inner-container clearfix">
                 	
                 	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="index.php"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
+                    	<div class="logo"><a href="/"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
                     </div>
 					
                    	<div class="nav-outer pull-left clearfix">
@@ -54,28 +54,28 @@
 
 							<div class="navbar-collapse show collapse clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li><a href="index.php">Home</a></li>
-									<li><a href="about.php">About Us</a></li>
-									<li class="dropdown"><a href="service.php">Services</a>
+									<li><a href="/">Home</a></li>
+									<li><a href="/about">About Us</a></li>
+									<li class="dropdown"><a href="/service">Services</a>
 										<ul>
-											<li><a href="service.php">Our Services</a></li>
-											<li><a href="service-detail.php">Bodafasta App</a></li>
+											<li><a href="/service">Our Services</a></li>
+											<li><a href="/service-detail">Bodafasta App</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="project.php">Investment</a>
+									<li class="dropdown"><a href="/project">Investment</a>
 										<ul>
-											<li><a href="calculator.php">Investment Calculator</a></li>
-											<li><a href="project.php">Growth Plan</a></li>
-											<li><a href="project-details.php">Financial Projections</a></li>
+											<li><a href="/calculator">Investment Calculator</a></li>
+											<li><a href="/project">Growth Plan</a></li>
+											<li><a href="/project-details">Financial Projections</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="blog.php">Blog</a>
+									<li class="dropdown"><a href="/blog">Blog</a>
 										<ul class="from-right">
-											<li><a href="blog.php">Our Blog</a></li>
-											<li><a href="blog-detail.php">Blog Detail</a></li>
+											<li><a href="/blog">Our Blog</a></li>
+											<li><a href="/blog-detail">Blog Detail</a></li>
 										</ul>
 									</li>
-									<li><a href="contact.php">Contact</a></li>
+									<li><a href="/contact">Contact</a></li>
 								</ul>
 							</div>
 							
@@ -102,7 +102,7 @@
             <div class="close-btn"><span class="icon lnr lnr-cross"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.php"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
+                <div class="nav-logo"><a href="/"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->

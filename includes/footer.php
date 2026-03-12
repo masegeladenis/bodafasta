@@ -1,4 +1,4 @@
-	<!-- Main Footer -->
+﻿	<!-- Main Footer -->
     <footer class="main-footer style-two">
 		<div class="auto-container">
         	<!--Widgets Section-->
@@ -13,7 +13,7 @@
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget logo-widget">
 									<div class="logo">
-										<a href="index.php"><img src="images/logo.png" alt="Bodafasta" /></a>
+										<a href="/"><img src="images/logo.png" alt="Bodafasta" /></a>
 									</div>
 									<div class="text" style="margin-bottom:15px;">Revolutionizing motorcycle transportation in Tanzania through technology, safety, and sustainable employment.</div>
 									<div class="call">
@@ -29,11 +29,11 @@
                                 <div class="footer-widget links-widget">
 									<h5>Company</h5>
 									<ul class="list-link">
-										<li><a href="about.php">About Bodafasta</a></li>
-										<li><a href="service.php">Our Services</a></li>
-										<li><a href="project.php">Growth Plan</a></li>
-										<li><a href="project-details.php">Investment</a></li>
-										<li><a href="contact.php">Contact Us</a></li>
+										<li><a href="/about">About Bodafasta</a></li>
+										<li><a href="/service">Our Services</a></li>
+										<li><a href="/project">Growth Plan</a></li>
+										<li><a href="/project-details">Investment</a></li>
+										<li><a href="/contact">Contact Us</a></li>
 									</ul>
 								</div>
 							</div>
@@ -50,10 +50,10 @@
                                 <div class="footer-widget links-widget">
 									<h5>Our Services</h5>
 									<ul class="list-link">
-										<li><a href="service.php">On-Demand Rides</a></li>
-										<li><a href="service.php">Parcel Delivery</a></li>
-										<li><a href="service.php">Scheduled Rides</a></li>
-										<li><a href="service-detail.php">Bodafasta App</a></li>
+										<li><a href="/service">On-Demand Rides</a></li>
+										<li><a href="/service">Parcel Delivery</a></li>
+										<li><a href="/service">Scheduled Rides</a></li>
+										<li><a href="/service-detail">Bodafasta App</a></li>
 									</ul>
 								</div>
 							</div>
@@ -64,7 +64,7 @@
 									<h5>Invest With Us</h5>
 									<div class="text">Interested in joining the Bodafasta journey? We offer 20% equity for investors. Get in touch to learn more about our growth plan.</div>
 									<div class="btn-box" style="margin-top:15px;">
-										<a href="contact.php" class="theme-btn btn-style-one"><span class="txt">Get In Touch</span></a>
+										<a href="/contact" class="theme-btn btn-style-one"><span class="txt">Get In Touch</span></a>
 									</div>
 								</div>
 							</div>

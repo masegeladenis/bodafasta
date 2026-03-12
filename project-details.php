@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
 <meta charset="UTF-8">
 <title>Bodafasta Investment Details - USD 147,500 for 20% Equity</title>
-<meta name="description" content="Detailed investment breakdown for Bodafasta Tanzania. USD 147,500 seed funding for 20% equity — fleet acquisition, app development, and operational setup."/>
+<meta name="description" content="Detailed investment breakdown for Bodafasta Tanzania. USD 147,500 seed funding for 20% equity â€” fleet acquisition, app development, and operational setup."/>
 
 <?php include 'includes/headlink.php'; ?>
 
@@ -30,7 +30,7 @@
     <div class="page-title-section">
     	<div class="auto-container">
 			<ul class="post-meta">
-				<li><a href="index.php">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li>Investment Details</li>
 			</ul>
 			<h2><span>Investment</span> Opportunity Details</h2>
@@ -53,7 +53,7 @@
 
 								<div class="details-list">
 									<label>Founded</label>
-									<span>2024 — Dar es Salaam, Tanzania</span>
+									<span>2024 â€” Dar es Salaam, Tanzania</span>
 								</div>
 
 								<div class="details-list">
@@ -96,11 +96,11 @@
 											their websites to connect with current and prospective customers.</p>
 									</div>
 									<div class="content mb-25">
-										<p>It is. In fact, “constant” internet usage among
+										<p>It is. In fact, â€œconstantâ€ internet usage among
 											adults increased by 5% in just the last three years, according to
 											Pew Research. And although we say it a lot, the way people shop and
-											buy really has changed along with it — meaning offline marketing
-											isn’t as effective as it used to be.</p>
+											buy really has changed along with it â€” meaning offline marketing
+											isnâ€™t as effective as it used to be.</p>
 									</div>
 									<div class="content mb-60">
 										<p>Marketing has always been about connecting with your
@@ -183,7 +183,7 @@
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>
-	<form method="post" action="blog.php">
+	<form method="post" action="/blog">
 		<div class="form-group">
 			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
 			<button type="submit"><i class="fa fa-search"></i></button>

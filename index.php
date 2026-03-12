@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -43,7 +43,7 @@
 								<h1>Revolutionizing <span>Motorcycle</span> Transportation</h1>
 								<div class="text">Safe, reliable, and technology-driven bodaboda services <br> creating sustainable employment across Tanzania. <br> Join us in transforming urban mobility.</div>
 								<div class="btn-box">
-									<a href="about.php" class="theme-btn btn-style-one"><span class="txt">Discover More</span></a>
+									<a href="/about" class="theme-btn btn-style-one"><span class="txt">Discover More</span></a>
 								</div>
 							</div>
 						</div>
@@ -64,7 +64,7 @@
 								<h1>USD 147,500 for <span>20% Equity</span></h1>
 								<div class="text">A scalable business model with projected ROI exceeding 20% annually. <br> 2.1 million motorcycles in Tanzania &mdash; a rapidly growing market. <br> Be part of the bodaboda revolution.</div>
 								<div class="btn-box">
-									<a href="project.php" class="theme-btn btn-style-one"><span class="txt">View Investment Plan</span></a>
+									<a href="/project" class="theme-btn btn-style-one"><span class="txt">View Investment Plan</span></a>
 								</div>
 							</div>
 						</div>
@@ -85,7 +85,7 @@
 								<h1>Book Rides & <span>Deliveries</span> Instantly</h1>
 								<div class="text">GPS tracking, cashless payments, driver ratings &mdash; <br> all in one easy-to-use app. <br> The future of bodaboda services is digital.</div>
 								<div class="btn-box">
-									<a href="service-detail.php" class="theme-btn btn-style-one"><span class="txt">Learn About The App</span></a>
+									<a href="/service-detail" class="theme-btn btn-style-one"><span class="txt">Learn About The App</span></a>
 								</div>
 							</div>
 						</div>
@@ -151,9 +151,9 @@
 							<div class="icon-box">
 								<span class="icon ti-car"></span>
 							</div>
-							<h5><a href="service-detail.php">On-Demand Rides</a></h5>
+							<h5><a href="/service-detail">On-Demand Rides</a></h5>
 							<div class="text">Quick and reliable motorcycle rides available through the Bodafasta App.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -163,9 +163,9 @@
 							<div class="icon-box">
 								<span class="icon ti-package"></span>
 							</div>
-							<h5><a href="service-detail.php">Parcel Delivery</a></h5>
+							<h5><a href="/service-detail">Parcel Delivery</a></h5>
 							<div class="text">Efficient and timely delivery of small packages across the city.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -175,9 +175,9 @@
 							<div class="icon-box">
 								<span class="icon ti-timer"></span>
 							</div>
-							<h5><a href="service-detail.php">Scheduled Rides</a></h5>
+							<h5><a href="/service-detail">Scheduled Rides</a></h5>
 							<div class="text">Pre-booked rides for planned trips and daily commutes.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -187,9 +187,9 @@
 							<div class="icon-box">
 								<span class="icon ti-mobile"></span>
 							</div>
-							<h5><a href="service-detail.php">Bodafasta App</a></h5>
+							<h5><a href="/service-detail">Bodafasta App</a></h5>
 							<div class="text">GPS tracking, cashless payments, and driver ratings all in one app.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -199,9 +199,9 @@
 							<div class="icon-box">
 								<span class="icon ti-shield"></span>
 							</div>
-							<h5><a href="service-detail.php">Safety & Insurance</a></h5>
+							<h5><a href="/service-detail">Safety & Insurance</a></h5>
 							<div class="text">Comprehensive insurance for drivers and motorcycles ensuring safe operations.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -211,9 +211,9 @@
 							<div class="icon-box">
 								<span class="icon ti-location-pin"></span>
 							</div>
-							<h5><a href="service-detail.php">GPS Tracking</a></h5>
+							<h5><a href="/service-detail">GPS Tracking</a></h5>
 							<div class="text">Real-time tracking for safety, convenience, and fleet management.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -223,9 +223,9 @@
 							<div class="icon-box">
 								<span class="icon ti-user"></span>
 							</div>
-							<h5><a href="service-detail.php">Driver Training</a></h5>
+							<h5><a href="/service-detail">Driver Training</a></h5>
 							<div class="text">Professional training, licensing, and welfare programs for all riders.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -235,9 +235,9 @@
 							<div class="icon-box">
 								<span class="icon ti-truck"></span>
 							</div>
-							<h5><a href="service-detail.php">B2B Logistics</a></h5>
+							<h5><a href="/service-detail">B2B Logistics</a></h5>
 							<div class="text">Reliable delivery services for businesses and e-commerce operations.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -260,7 +260,7 @@
 						<h2>Why <span>Invest in Bodafasta</span></h2>
 					</div>
 					<div class="pull-right">
-						<a href="project.php" class="cases">Full Growth Plan <span class="arrow ti-angle-right"></span></a>
+						<a href="/project" class="cases">Full Growth Plan <span class="arrow ti-angle-right"></span></a>
 					</div>
 				</div>
 			</div>
@@ -281,9 +281,9 @@
 										<img src="images/gallery/2.jpg" alt="Fleet Growth" />
 										<div class="overlay-box">
 											<div class="overlay-inner">
-												<h3><a href="project-details.php">Fleet Growth Plan</a></h3>
+												<h3><a href="/project-details">Fleet Growth Plan</a></h3>
 												<div class="designation">5 to 10,000 Motorcycles</div>
-												<a href="project-details.php" class="arrow ti-angle-right"></a>
+												<a href="/project-details" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
 									</div>
@@ -299,9 +299,9 @@
 										<img src="images/gallery/3.jpg" alt="Bodafasta App" />
 										<div class="overlay-box">
 											<div class="overlay-inner">
-												<h3><a href="service-detail.php">Bodafasta App</a></h3>
+												<h3><a href="/service-detail">Bodafasta App</a></h3>
 												<div class="designation">Technology-Driven Operations</div>
-												<a href="service-detail.php" class="arrow ti-angle-right"></a>
+												<a href="/service-detail" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
 									</div>
@@ -317,9 +317,9 @@
 										<img src="images/gallery/4.jpg" alt="Manufacturing Vision" />
 										<div class="overlay-box">
 											<div class="overlay-inner">
-												<h3><a href="project.php">Manufacturing Vision</a></h3>
+												<h3><a href="/project">Manufacturing Vision</a></h3>
 												<div class="designation">Local Motorcycle Production</div>
-												<a href="project.php" class="arrow ti-angle-right"></a>
+												<a href="/project" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
 									</div>
@@ -338,9 +338,9 @@
 								<img src="images/gallery/1.jpg" alt="Investment Opportunity" />
 								<div class="overlay-box">
 									<div class="overlay-inner">
-										<h3><a href="project-details.php">USD 147,500 Investment</a></h3>
+										<h3><a href="/project-details">USD 147,500 Investment</a></h3>
 										<div class="designation">20% Equity &bull; 20%+ Annual ROI</div>
-										<a href="project-details.php" class="arrow ti-angle-right"></a>
+										<a href="/project-details" class="arrow ti-angle-right"></a>
 									</div>
 								</div>
 							</div>
@@ -417,7 +417,7 @@
 							<h5>Get in Touch</h5>
 							
 							<div class="consult-form">
-								<form method="post" action="contact.php">
+								<form method="post" action="/contact">
 
 									<!--Form Group-->
 									<div class="form-group">
@@ -519,7 +519,7 @@
 									<div class="image-column col-lg-6 col-md-6 col-sm-12">
 										<div class="inner-column">
 											<div class="image">
-	<a href="project.php">
+	<a href="/project">
 	<img src="images/resource/news-1.jpg" alt="Phase I" /></a>
 										</div>
 									</div>
@@ -529,7 +529,7 @@
 									<div class="inner-column">
 										<div class="arrow-one"></div>
 										<div class="title">Phase I &amp; II</div>
-										<h4><a href="project.php">5 to 50 Motorcycles <br> Building the Foundation <br> USD 63,333 Investment</a></h4>
+										<h4><a href="/project">5 to 50 Motorcycles <br> Building the Foundation <br> USD 63,333 Investment</a></h4>
 										<div class="post-date">Months 1-5 <span>Operational Setup</span></div>
 										</div>
 									</div>
@@ -546,7 +546,7 @@
 										<div class="inner-column">
 											<div class="arrow-two"></div>
 											<div class="title">Phase III & IV</div>
-											<h4><a href="project.php">50 to 100 Motorcycles <br> Scaling Operations <br> USD 63,333 Investment</a></h4>
+											<h4><a href="/project">50 to 100 Motorcycles <br> Scaling Operations <br> USD 63,333 Investment</a></h4>
 											<div class="post-date">Months 5-12 <span>Market Expansion</span></div>
 										</div>
 									</div>
@@ -570,12 +570,12 @@
 						<div class="news-block-two">
 							<div class="inner-box">
 								<div class="image">
-									<a href="project-details.php"><img src="images/resource/news-3.jpg" alt="Long-term Vision" /></a>
+									<a href="/project-details"><img src="images/resource/news-3.jpg" alt="Long-term Vision" /></a>
 									<div class="arrow"></div>
 								</div>
 								<div class="lower-content">
 									<div class="title">long-term vision</div>
-									<h4><a href="project-details.php">Manufacturing <br> Industries &amp; Local <br> Motorcycle Production</a></h4>
+									<h4><a href="/project-details">Manufacturing <br> Industries &amp; Local <br> Motorcycle Production</a></h4>
 									<div class="post-date">10-Year Vision <span>Tanzania</span></div>
 								</div>
 							</div>
@@ -597,7 +597,7 @@
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>
-	<form method="post" action="blog.php">
+	<form method="post" action="/blog">
 		<div class="form-group">
 			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
 			<button type="submit"><i class="fa fa-search"></i></button>

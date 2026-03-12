@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -28,7 +28,7 @@
     <div class="page-title-section">
     	<div class="auto-container">
 			<ul class="post-meta">
-				<li><a href="index.php">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li>Growth Plan</li>
 			</ul>
 			<h2><span>Investment</span> & Growth Plan</h2>
@@ -53,9 +53,9 @@
 										<img src="images/gallery/2.jpg" alt="Fleet Growth" />
 										<div class="overlay-box">
 											<div class="overlay-inner">
-												<h3><a href="project-details.php">Fleet Growth Plan</a></h3>
-												<div class="designation">5 → 100 → 2,000 Motorcycles</div>
-												<a href="project-details.php" class="arrow ti-angle-right"></a>
+												<h3><a href="/project-details">Fleet Growth Plan</a></h3>
+												<div class="designation">5 â†’ 100 â†’ 2,000 Motorcycles</div>
+												<a href="/project-details" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
 									</div>
@@ -71,9 +71,9 @@
 										<img src="images/gallery/3.jpg" alt="Bodafasta App" />
 										<div class="overlay-box">
 											<div class="overlay-inner">
-												<h3><a href="project-details.php">Bodafasta App</a></h3>
+												<h3><a href="/project-details">Bodafasta App</a></h3>
 												<div class="designation">Technology Platform</div>
-												<a href="project-details.php" class="arrow ti-angle-right"></a>
+												<a href="/project-details" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
 									</div>
@@ -89,9 +89,9 @@
 										<img src="images/gallery/4.jpg" alt="Manufacturing Vision" />
 										<div class="overlay-box">
 											<div class="overlay-inner">
-												<h3><a href="project-details.php">Manufacturing Vision</a></h3>
+												<h3><a href="/project-details">Manufacturing Vision</a></h3>
 												<div class="designation">Local Motorcycle Production</div>
-												<a href="project-details.php" class="arrow ti-angle-right"></a>
+												<a href="/project-details" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
 									</div>
@@ -110,9 +110,9 @@
 								<img src="images/gallery/1.jpg" alt="" />
 								<div class="overlay-box">
 									<div class="overlay-inner">
-										<h3><a href="project-details.php">USD 147,500 Investment</a></h3>
+										<h3><a href="/project-details">USD 147,500 Investment</a></h3>
 										<div class="designation">20% Equity Opportunity</div>
-										<a href="project-details.php" class="arrow ti-angle-right"></a>
+										<a href="/project-details" class="arrow ti-angle-right"></a>
 									</div>
 								</div>
 							</div>

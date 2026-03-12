@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
 <meta charset="UTF-8">
 <title>Bodafasta Blog Detail - Motorcycle Transportation Tanzania</title>
-<meta name="description" content="Read the latest updates and insights from Bodafasta Tanzania — motorcycle transportation, logistics, investment, and technology."/>
+<meta name="description" content="Read the latest updates and insights from Bodafasta Tanzania â€” motorcycle transportation, logistics, investment, and technology."/>
 
 <?php include 'includes/headlink.php'; ?>
 
@@ -30,7 +30,7 @@
     <div class="page-title-section style-two">
     	<div class="auto-container">
 			<ul class="post-meta">
-				<li><a href="index.php">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li>News Detail</li>
 			</ul>
 			<h2>Bodafasta Launches Pilot Fleet of 5 <br> Motorcycles in Dar es Salaam</h2>
@@ -52,12 +52,12 @@
 							</div>
 							<div class="lower-content">
 								<div class="post-info"><span class="theme_color">business</span> -  December 14th, 2020 by <i>Admin</i></div>
-								<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” We know self-censoring by many names. Carl Jung called it our “inner critic.” Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed </p>
+								<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether itâ€™s because weâ€™re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: â€œMidway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friendsâ€™ embarrassment, the failing career, the dwindling income, the repossessed house, the divorceâ€¦â€ We know self-censoring by many names. Carl Jung called it our â€œinner critic.â€ Michael Ray and Rochelle Myers called it the â€œvoice of judgmentâ€ in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friendsâ€™ embarrassment, the failing career, the dwindling income, the repossessed </p>
 								<div class="middle-image">
 									<img src="images/resource/news-10.jpg" alt="" />
 								</div>
-								<h4>Gathered Was Isn’t Fruitful Every</h4>
-								<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him. Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>
+								<h4>Gathered Was Isnâ€™t Fruitful Every</h4>
+								<p>Give void had the creature man evening two be for heaven wonâ€™t youâ€™re may. Subdue him. Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue youâ€™ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree youâ€™re two beast, moved, every. Evening their us seas.</p>
 								<blockquote>
 									<div class="blockquote-text"><span class="quote icofont-quote-left"></span>Our greatest weakness lies in giving up. <br> The most certain way to succeed is always to <br> try just one more time.</div>
 								</blockquote>
@@ -83,11 +83,11 @@
 							<div class="news-block-four col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box">
 									<div class="image">
-										<a href="blog-detail.php"><img src="images/resource/news-4.jpg" alt="Bodafasta Safety" /></a>
+										<a href="/blog-detail"><img src="images/resource/news-4.jpg" alt="Bodafasta Safety" /></a>
 									</div>
 									<div class="lower-content">
 										<div class="title">Safety</div>
-										<h4><a href="blog-detail.php">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
+										<h4><a href="/blog-detail">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
 									</div>
 								</div>
 							</div>
@@ -96,11 +96,11 @@
 							<div class="news-block-four col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box">
 									<div class="image">
-										<a href="blog-detail.php"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
+										<a href="/blog-detail"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
 									</div>
 									<div class="lower-content">
 										<div class="title">Investment</div>
-										<h4><a href="blog-detail.php">Why Bodaboda Is East Africa's Next Big Opportunity</a></h4>
+										<h4><a href="/blog-detail">Why Bodaboda Is East Africa's Next Big Opportunity</a></h4>
 									</div>
 								</div>
 							</div>
@@ -119,7 +119,7 @@
 							<div class="sidebar-title">
                             	<h4>Search</h4>
                             </div>
-						<form method="post" action="blog.php">
+						<form method="post" action="/blog">
                                 <div class="form-group">
                                     <input type="search" name="search-field" value="" placeholder="Search news..." required>
                                     <button type="submit"><span class="icon fa fa-search"></span></button>
@@ -148,18 +148,18 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail.php"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail.php">Bodafasta App Development: From Vision to Platform</a></div>
+                                    <figure class="post-thumb"><a href="/blog-detail"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="/blog-detail">Bodafasta App Development: From Vision to Platform</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail.php"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail.php">How Bodafasta Ensures Rider Safety With Technology</a></div>
+                                    <figure class="post-thumb"><a href="/blog-detail"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="/blog-detail">How Bodafasta Ensures Rider Safety With Technology</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail.php"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail.php">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
+                                    <figure class="post-thumb"><a href="/blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="/blog-detail">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                             </div>
 						</div>
@@ -194,7 +194,7 @@
 						<div class="comment-text">Your email address will not be published</div>
 					</div>
 					<!--Comment Form-->
-					<form method="post" action="blog.php">
+					<form method="post" action="/blog">
 						<div class="row clearfix">
 							<div class="col-md-12 col-sm-12 col-xs-12 form-group">
 								<input type="text" name="username" placeholder="Name *" required>
@@ -236,7 +236,7 @@
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>
-	<form method="post" action="blog.php">
+	<form method="post" action="/blog">
 		<div class="form-group">
 			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
 			<button type="submit"><i class="fa fa-search"></i></button>

@@ -1,4 +1,4 @@
-	<!-- Experts Section -->
+﻿	<!-- Experts Section -->
 	<div class="experts-section">
 		<div class="auto-container">
 		
@@ -10,7 +10,7 @@
 						<h2>The <span>Bodafasta Leadership</span></h2>
 					</div>
 					<div class="pull-right">
-						<a href="about.php" class="experts">learn more <span class="arrow ti-angle-right"></span></a>
+						<a href="/about" class="experts">learn more <span class="arrow ti-angle-right"></span></a>
 					</div>
 				</div>
 			</div>

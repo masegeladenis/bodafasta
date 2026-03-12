@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -32,7 +32,7 @@
 			<div class="content-box">
 				<h2>Our <span>Services</span></h2>
 				<div class="text">Bodafasta provides safe, reliable, and technology-driven motorcycle transportation and delivery services across Tanzania.</div>
-				<a href="contact.php" class="theme-btn btn-style-one"><span class="txt">get in touch</span></a>
+				<a href="/contact" class="theme-btn btn-style-one"><span class="txt">get in touch</span></a>
 				
 				<!-- Lower Box -->
 				<div class="lower-box clearfix">
@@ -69,9 +69,9 @@
 							<div class="icon-box">
 								<span class="icon ti-car"></span>
 							</div>
-							<h5><a href="service-detail.php">On-Demand Rides</a></h5>
+							<h5><a href="/service-detail">On-Demand Rides</a></h5>
 							<div class="text">Instant motorcycle ride-hailing for fast, affordable transportation across the city.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -81,9 +81,9 @@
 							<div class="icon-box">
 								<span class="icon ti-package"></span>
 							</div>
-							<h5><a href="service-detail.php">Parcel Delivery</a></h5>
+							<h5><a href="/service-detail">Parcel Delivery</a></h5>
 							<div class="text">Swift and secure parcel delivery services for individuals and businesses.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -93,9 +93,9 @@
 							<div class="icon-box">
 								<span class="icon ti-timer"></span>
 							</div>
-							<h5><a href="service-detail.php">Scheduled Rides</a></h5>
+							<h5><a href="/service-detail">Scheduled Rides</a></h5>
 							<div class="text">Pre-book your rides in advance for guaranteed punctual transportation.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -105,9 +105,9 @@
 							<div class="icon-box">
 								<span class="icon ti-mobile"></span>
 							</div>
-							<h5><a href="service-detail.php">Bodafasta App</a></h5>
+							<h5><a href="/service-detail">Bodafasta App</a></h5>
 							<div class="text">Our technology platform connecting riders and drivers seamlessly.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -117,9 +117,9 @@
 							<div class="icon-box">
 								<span class="icon ti-shield"></span>
 							</div>
-							<h5><a href="service-detail.php">Safety & Insurance</a></h5>
+							<h5><a href="/service-detail">Safety & Insurance</a></h5>
 							<div class="text">Comprehensive insurance and safety protocols for every ride taken.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -129,9 +129,9 @@
 							<div class="icon-box">
 								<span class="icon ti-location-pin"></span>
 							</div>
-							<h5><a href="service-detail.php">GPS Tracking</a></h5>
+							<h5><a href="/service-detail">GPS Tracking</a></h5>
 							<div class="text">Real-time GPS tracking on every motorcycle for safety and transparency.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -141,9 +141,9 @@
 							<div class="icon-box">
 								<span class="icon ti-user"></span>
 							</div>
-							<h5><a href="service-detail.php">Driver Training</a></h5>
+							<h5><a href="/service-detail">Driver Training</a></h5>
 							<div class="text">Professional training programs ensuring skilled and responsible drivers.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -153,9 +153,9 @@
 							<div class="icon-box">
 								<span class="icon ti-truck"></span>
 							</div>
-							<h5><a href="service-detail.php">B2B Logistics</a></h5>
+							<h5><a href="/service-detail">B2B Logistics</a></h5>
 							<div class="text">Business logistics solutions for last-mile delivery and fleet partnerships.</div>
-							<a class="read-more" href="service-detail.php">More <span class="ti-angle-right"></span></a>
+							<a class="read-more" href="/service-detail">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
 					
@@ -178,7 +178,7 @@
 							<h5>Get In Touch</h5>
 							
 							<div class="consult-form">
-								<form method="post" action="contact.php">
+								<form method="post" action="/contact">
 
 									<!--Form Group-->
 									<div class="form-group">
@@ -230,7 +230,7 @@
 							<div class="reputation-block">
 								<div class="inner-box">
 									<h5>Asset Ownership Model</h5>
-									<div class="text">Unlike competitors who rely on driver-owned vehicles, Bodafasta owns <br> its entire fleet — ensuring quality, branding consistency, and control.</div>
+									<div class="text">Unlike competitors who rely on driver-owned vehicles, Bodafasta owns <br> its entire fleet â€” ensuring quality, branding consistency, and control.</div>
 								</div>
 							</div>
 							
@@ -275,7 +275,7 @@
 					<div class="testimonial-block">
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
-							<div class="author">Year 1 — 2025 <span>/ 100 Motorcycles</span></div>
+							<div class="author">Year 1 â€” 2025 <span>/ 100 Motorcycles</span></div>
 							<div class="text">Projected revenue of TZS 336,000,000. Operating 100 company-owned motorcycles with trained drivers across Dar es Salaam. Building brand recognition and refining operations.</div>
 						</div>
 					</div>
@@ -284,7 +284,7 @@
 					<div class="testimonial-block">
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
-							<div class="author">Year 2 — 2026 <span>/ 1,000 Motorcycles</span></div>
+							<div class="author">Year 2 â€” 2026 <span>/ 1,000 Motorcycles</span></div>
 							<div class="text">Projected revenue of TZS 3,600,000,000. Scaling to 1,000 units, expanding to Dodoma and Arusha, and launching the full Bodafasta App platform.</div>
 						</div>
 					</div>
@@ -293,7 +293,7 @@
 					<div class="testimonial-block">
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
-							<div class="author">Year 3 — 2027 <span>/ 2,000 Motorcycles</span></div>
+							<div class="author">Year 3 â€” 2027 <span>/ 2,000 Motorcycles</span></div>
 							<div class="text">Projected revenue of TZS 7,200,000,000. Operating 2,000 units across major Tanzanian cities, establishing B2B logistics partnerships and preparing for manufacturing.</div>
 						</div>
 					</div>
