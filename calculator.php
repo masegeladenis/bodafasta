@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -287,7 +287,7 @@
 										<div class="overlay-box">
 											<div class="overlay-inner">
 												<h3><a href="#shareCalc">Share Investment</a></h3>
-												<div class="designation">20 Shares â€” 20% Equity</div>
+												<div class="designation">20 Shares &mdash; 20% Equity</div>
 												<a href="#shareCalc" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
@@ -305,7 +305,7 @@
 										<div class="overlay-box">
 											<div class="overlay-inner">
 												<h3><a href="#bondCalc">Bond Investment</a></h3>
-												<div class="designation">1,000 Bonds â€” 15% Interest</div>
+												<div class="designation">1,000 Bonds &mdash; 15% Interest</div>
 												<a href="#bondCalc" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
@@ -387,7 +387,7 @@
 								<span class="icon ti-money"></span>
 							</div>
 							<h5><a href="#bondCalc">Bond Investment</a></h5>
-							<div class="text">Short-term fixed-return bonds (3â€“5 years). 1,000 bonds available at TZS 70,000 each with 15% annual interest.</div>
+							<div class="text">Short-term fixed-return bonds (3&ndash;5 years). 1,000 bonds available at TZS 70,000 each with 15% annual interest.</div>
 							<a class="read-more" href="#bondCalc">Calculate <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
@@ -399,7 +399,7 @@
 								<span class="icon ti-shield"></span>
 							</div>
 							<h5><a href="project-details">Asset-Backed</a></h5>
-							<div class="text">All investments are backed by physical motorcycle fleet assets â€” GPS tracked, insured, and revenue-generating.</div>
+							<div class="text">All investments are backed by physical motorcycle fleet assets &mdash; GPS tracked, insured, and revenue-generating.</div>
 							<a class="read-more" href="project-details">More <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
@@ -427,7 +427,7 @@
 							<div class="icon-box"><span class="ti-bar-chart"></span></div>
 							<div>
 								<h4>Share Investment</h4>
-								<p>Own equity in Bodafasta â€” 20 shares available (20% of the company)</p>
+								<p>Own equity in Bodafasta &mdash; 20 shares available (20% of the company)</p>
 							</div>
 						</div>
 
@@ -450,36 +450,36 @@
 							<h5><span class="ti-stats-up" style="color:#116cd1;"></span> Your Investment Breakdown</h5>
 							<div class="calc-result-row">
 								<span>Investment Amount</span>
-								<strong id="shareCost" class="highlight">â€”</strong>
+								<strong id="shareCost" class="highlight">&mdash;</strong>
 							</div>
 							<div class="calc-result-row">
 								<span>Shares Acquired</span>
-								<strong id="shareCount">â€”</strong>
+								<strong id="shareCount">&mdash;</strong>
 							</div>
 							<div class="calc-result-row">
 								<span>Motorcycles</span>
-								<strong id="shareBikes">â€”</strong>
+								<strong id="shareBikes">&mdash;</strong>
 							</div>
 							<div class="calc-result-row">
 								<span>Company Ownership</span>
-								<strong id="shareOwnership">â€”</strong>
+								<strong id="shareOwnership">&mdash;</strong>
 							</div>
 							<div class="calc-profit-box">
 								<div class="calc-result-row">
 									<span>Est. Profit (Year 1)</span>
-									<strong id="shareProfit1" class="highlight">â€”</strong>
+									<strong id="shareProfit1" class="highlight">&mdash;</strong>
 								</div>
 								<div class="calc-result-row">
 									<span>Est. Profit (Year 2)</span>
-									<strong id="shareProfit2" class="highlight">â€”</strong>
+									<strong id="shareProfit2" class="highlight">&mdash;</strong>
 								</div>
 								<div class="calc-result-row" style="margin-bottom:0;">
 									<span>Est. Profit (Year 3)</span>
-									<strong id="shareProfit3" class="highlight">â€”</strong>
+									<strong id="shareProfit3" class="highlight">&mdash;</strong>
 								</div>
 							</div>
 							<div class="calc-roi-text">
-								<span>ROI Year 1: </span><strong id="shareROI">â€”</strong>
+								<span>ROI Year 1: </span><strong id="shareROI">&mdash;</strong>
 							</div>
 						</div>
 
@@ -511,7 +511,7 @@
 							<div class="icon-box"><span class="ti-money"></span></div>
 							<div>
 								<h4>Bond Investment</h4>
-								<p>Short-term bonds (3â€“5 years) â€” 15% annual compound interest</p>
+								<p>Short-term bonds (3&ndash;5 years) &mdash; 15% annual compound interest</p>
 							</div>
 						</div>
 
@@ -542,11 +542,11 @@
 							<h5><span class="ti-stats-up" style="color:#116cd1;"></span> Your Investment Breakdown</h5>
 							<div class="calc-result-row">
 								<span>Investment Amount</span>
-								<strong id="bondCost" class="highlight">â€”</strong>
+								<strong id="bondCost" class="highlight">&mdash;</strong>
 							</div>
 							<div class="calc-result-row">
 								<span>Bonds Acquired</span>
-								<strong id="bondCount">â€”</strong>
+								<strong id="bondCount">&mdash;</strong>
 							</div>
 							<div class="calc-result-row">
 								<span>Annual Interest Rate</span>
@@ -559,15 +559,15 @@
 							<div class="calc-profit-box">
 								<div class="calc-result-row">
 									<span>Total Interest Earned</span>
-									<strong id="bondInterest" class="highlight">â€”</strong>
+									<strong id="bondInterest" class="highlight">&mdash;</strong>
 								</div>
 								<div class="calc-result-row" style="margin-bottom:0;">
 									<span style="font-weight:600;">Total Payout</span>
-									<strong id="bondTotal" class="highlight" style="font-size:18px;">â€”</strong>
+									<strong id="bondTotal" class="highlight" style="font-size:18px;">&mdash;</strong>
 								</div>
 							</div>
 							<div class="calc-roi-text">
-								<span>Total Return: </span><strong id="bondROI">â€”</strong>
+								<span>Total Return: </span><strong id="bondROI">&mdash;</strong>
 							</div>
 						</div>
 
@@ -957,16 +957,16 @@ function printProjection(type) {
 		table = document.getElementById('shareProjectionTable').outerHTML;
 		var amount = parseAmount(document.getElementById('shareAmountInput').value);
 		var shares = Math.floor(amount / sharePrice);
-		title = 'Bodafasta Share Investment â€” ' + shares + ' Share' + (shares > 1 ? 's' : '') + ' â€” ' + shareProjectionYears + ' Year Projection';
+		title = 'Bodafasta Share Investment &mdash; ' + shares + ' Share' + (shares > 1 ? 's' : '') + ' &mdash; ' + shareProjectionYears + ' Year Projection';
 	} else {
 		table = document.getElementById('bondProjectionTable').outerHTML;
 		var amount = parseAmount(document.getElementById('bondAmountInput').value);
 		var bonds = Math.floor(amount / bondPrice);
-		title = 'Bodafasta Bond Investment â€” ' + bonds.toLocaleString('en-US') + ' Bond' + (bonds > 1 ? 's' : '') + ' â€” ' + bondProjectionYears + ' Year Projection';
+		title = 'Bodafasta Bond Investment &mdash; ' + bonds.toLocaleString('en-US') + ' Bond' + (bonds > 1 ? 's' : '') + ' &mdash; ' + bondProjectionYears + ' Year Projection';
 	}
 
 	var win = window.open('', '_blank');
-	win.document.write('<!DOCTYPE html><html><head><title>' + title + '</title>');
+	win.document.write('<!DOCTYPE html><html><head><meta charset="UTF-8"><title>' + title + '</title>');
 	win.document.write('<style>body{font-family:Arial,sans-serif;padding:40px;color:#333;}h2{color:#116cd1;margin-bottom:5px;}p{color:#777;margin-bottom:20px;}table{width:100%;border-collapse:collapse;}th{background:#116cd1;color:#fff;padding:10px 15px;text-align:left;}td{padding:10px 15px;border-bottom:1px solid #ddd;}tr:nth-child(even){background:#f8f9fa;}tr:last-child td{font-weight:700;background:#f0f7ff;border-bottom:2px solid #116cd1;}.footer{margin-top:30px;font-size:12px;color:#999;border-top:1px solid #eee;padding-top:15px;}</style>');
 	win.document.write('</head><body>');
 	win.document.write('<h2>' + title + '</h2>');
