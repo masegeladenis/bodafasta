@@ -41,8 +41,8 @@
 					<div class="testimonial-block">
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
-							<div class="author">Growth Projection <span>/ Financial Model 2025-2027</span></div>
-							<div class="text">With projected revenue of TZS 336M in Year 1, scaling to TZS 7.2B by Year 3, and a clear path to local manufacturing &mdash; Bodafasta offers investors a compelling entry point into East Africa's fastest-growing urban mobility sector.</div>
+							<div class="author">Growth Projection <span>/ Financial Model 2025&ndash;2027</span></div>
+							<div class="text">With projected revenue of TZS 360M in Year 1 (TZS 1M daily), scaling to TZS 3.6B by Year 3 (TZS 10M daily across 1,000 motorcycles) &mdash; Bodafasta offers investors a compelling entry point into East Africa's fastest-growing urban mobility sector.</div>
 						</div>
 					</div>
 					

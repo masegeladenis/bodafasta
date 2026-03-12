@@ -368,7 +368,7 @@
 					<div class="inner-box">
 						<div class="quote icofont-quote-right"></div>
 						<div class="author">Year 1 &mdash; 2025 <span>/ 100 Motorcycles</span></div>
-						<div class="text">Daily income of TZS 1M, annual revenue of TZS 336M, with a net profit of TZS 176M. Phase-wise growth from 5 to 100 units with sustainable operational scaling.</div>
+						<div class="text">Daily revenue of TZS 1M, annual revenue of TZS 360M. Operating 100 company-owned motorcycles with trained drivers across Dar es Salaam. Building brand recognition and refining operations.</div>
 					</div>
 				</div>
 				
@@ -376,8 +376,8 @@
 				<div class="testimonial-block">
 					<div class="inner-box">
 						<div class="quote icofont-quote-right"></div>
-						<div class="author">Year 2 &mdash; 2026 <span>/ 1,000 Motorcycles</span></div>
-						<div class="text">Scaling to 1,000 units with TZS 10M daily income. Annual revenue projected at TZS 3.6B with net profit of TZS 2.1B. App launch drives B2C and B2B engagement.</div>
+						<div class="author">Year 2 &mdash; 2026 <span>/ 500 Motorcycles</span></div>
+						<div class="text">Daily revenue of TZS 5M, annual revenue of TZS 1.8B. Scaling to 500 units, expanding to Dodoma and Arusha, and launching the full Bodafasta App platform.</div>
 					</div>
 				</div>
 				
@@ -385,8 +385,8 @@
 				<div class="testimonial-block">
 					<div class="inner-box">
 						<div class="quote icofont-quote-right"></div>
-						<div class="author">Year 3 &mdash; 2027 <span>/ 2,000 Motorcycles</span></div>
-						<div class="text">Growing to 2,000 units with TZS 20M daily income. Annual revenue of TZS 7.2B and net profit of TZS 4.2B. Manufacturing planning begins for local motorcycle production.</div>
+						<div class="author">Year 3 &mdash; 2027 <span>/ 1,000 Motorcycles</span></div>
+						<div class="text">Daily revenue of TZS 10M, annual revenue of TZS 3.6B. Operating 1,000 units across major Tanzanian cities, establishing B2B logistics partnerships and preparing for manufacturing.</div>
 					</div>
 				</div>
 				

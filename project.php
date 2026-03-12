@@ -54,7 +54,7 @@
 										<div class="overlay-box">
 											<div class="overlay-inner">
 												<h3><a href="project-details">Fleet Growth Plan</a></h3>
-												<div class="designation">5 &rarr; 100 &rarr; 2,000 Motorcycles</div>
+												<div class="designation">5 &rarr; 100 &rarr; 500 &rarr; 1,000 Motorcycles</div>
 												<a href="project-details" class="arrow ti-angle-right"></a>
 											</div>
 										</div>

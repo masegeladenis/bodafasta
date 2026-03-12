@@ -909,7 +909,7 @@ function exportCSV(type) {
 	rows.push(['BODAFASTA TANZANIA']);
 	rows.push(['Motorcycle Transportation Investment']);
 	rows.push(['Phone: +255 767 306 986', 'Email: Victorion@gmail.com']);
-	rows.push(['Location: Dar es Salaam, Tanzania', 'Web: bodafasta.com']);
+	rows.push(['Location: Dar es Salaam, Tanzania', 'Web: bodafasta.co.tz']);
 	rows.push([]);
 
 	if (type === 'share') {
@@ -952,7 +952,7 @@ function exportCSV(type) {
 	rows.push([]);
 	rows.push(['Generated on ' + new Date().toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'})]);
 	rows.push(['This is an estimate based on Bodafasta financial projections. Actual returns may vary.']);
-	rows.push(['Visit bodafasta.com for full investment details.']);
+	rows.push(['Visit bodafasta.co.tz for full investment details.']);
 
 	var csv = rows.map(function(r) { return r.join(','); }).join('\n');
 	var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
@@ -1034,7 +1034,7 @@ function printProjection(type) {
 	win.document.write('<div><span class="c-icon">&#9742;</span>+255 767 306 986</div>');
 	win.document.write('<div><span class="c-icon">&#9993;</span><a href="mailto:Victorion@gmail.com">Victorion@gmail.com</a></div>');
 	win.document.write('<div><span class="c-icon">&#9873;</span>Dar es Salaam, Tanzania</div>');
-	win.document.write('<div><span class="c-icon">&#127760;</span><a href="https://bodafasta.com">bodafasta.com</a></div>');
+	win.document.write('<div><span class="c-icon">&#127760;</span><a href="https://bodafasta.co.tz">bodafasta.co.tz</a></div>');
 	win.document.write('</div></div>');
 
 	// Accent bar
@@ -1057,7 +1057,7 @@ function printProjection(type) {
 
 	// Footer
 	win.document.write('<div class="doc-footer">');
-	win.document.write('<div class="left"><div class="disclaimer">This is an estimate based on Bodafasta financial projections. Actual returns may vary based on market conditions and business performance.</div><div style="margin-top:6px;">For full investment details visit <a href="https://bodafasta.com" style="color:#116cd1;">bodafasta.com</a> or contact us directly.</div></div>');
+	win.document.write('<div class="left"><div class="disclaimer">This is an estimate based on Bodafasta financial projections. Actual returns may vary based on market conditions and business performance.</div><div style="margin-top:6px;">For full investment details visit <a href="https://bodafasta.co.tz" style="color:#116cd1;">bodafasta.co.tz</a> or contact us directly.</div></div>');
 	win.document.write('<div class="right"><strong style="color:#333;">Bodafasta Tanzania</strong><br>Dar es Salaam, Tanzania<br><a href="https://share.google/XMSp50emSaLLvYFLx">View Our Location</a></div>');
 	win.document.write('</div>');
 

@@ -276,7 +276,7 @@
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
 							<div class="author">Year 1 &mdash; 2025 <span>/ 100 Motorcycles</span></div>
-							<div class="text">Projected revenue of TZS 336,000,000. Operating 100 company-owned motorcycles with trained drivers across Dar es Salaam. Building brand recognition and refining operations.</div>
+							<div class="text">Daily revenue of TZS 1,000,000. Annual revenue of TZS 360,000,000. Operating 100 company-owned motorcycles with trained drivers across Dar es Salaam. Building brand recognition and refining operations.</div>
 						</div>
 					</div>
 					
@@ -284,8 +284,8 @@
 					<div class="testimonial-block">
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
-							<div class="author">Year 2 &mdash; 2026 <span>/ 1,000 Motorcycles</span></div>
-							<div class="text">Projected revenue of TZS 3,600,000,000. Scaling to 1,000 units, expanding to Dodoma and Arusha, and launching the full Bodafasta App platform.</div>
+							<div class="author">Year 2 &mdash; 2026 <span>/ 500 Motorcycles</span></div>
+							<div class="text">Daily revenue of TZS 5,000,000. Annual revenue of TZS 1,800,000,000. Scaling to 500 units, expanding to Dodoma and Arusha, and launching the full Bodafasta App platform.</div>
 						</div>
 					</div>
 					
@@ -293,8 +293,8 @@
 					<div class="testimonial-block">
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
-							<div class="author">Year 3 &mdash; 2027 <span>/ 2,000 Motorcycles</span></div>
-							<div class="text">Projected revenue of TZS 7,200,000,000. Operating 2,000 units across major Tanzanian cities, establishing B2B logistics partnerships and preparing for manufacturing.</div>
+							<div class="author">Year 3 &mdash; 2027 <span>/ 1,000 Motorcycles</span></div>
+							<div class="text">Daily revenue of TZS 10,000,000. Annual revenue of TZS 3,600,000,000. Operating 1,000 units across major Tanzanian cities, establishing B2B logistics partnerships and preparing for manufacturing.</div>
 						</div>
 					</div>
 					
