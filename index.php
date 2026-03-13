@@ -151,8 +151,8 @@
 				
 				<div class="counter-column col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="inner" style="color:#fff;">
-						<div style="font-size:42px; font-weight:700; color:#fff;">$388M</div>
-						<div style="font-size:14px; text-transform:uppercase; letter-spacing:1px; margin-top:8px; color:rgba(255,255,255,0.85);">Market Revenue (USD)</div>
+						<div style="font-size:42px; font-weight:700; color:#fff;">TZS 970B</div>
+						<div style="font-size:14px; text-transform:uppercase; letter-spacing:1px; margin-top:8px; color:rgba(255,255,255,0.85);">Market Revenue</div>
 					</div>
 				</div>
 				
@@ -435,7 +435,7 @@
 					<div class="inner-box">
 						<div class="quote icofont-quote-right"></div>
 						<div class="author">Market Opportunity <span>/ Tanzania</span></div>
-						<div class="text">Over 2.1 million motorcycles in Tanzania with an estimated market revenue of $388M USD. Bodafasta aims to own the majority, starting with 10,000 motorcycles under the brand.</div>
+						<div class="text">Over 2.1 million motorcycles in Tanzania with an estimated market revenue of TZS 970 billion. Bodafasta aims to own the majority, starting with 10,000 motorcycles under the brand.</div>
 					</div>
 				</div>
 				

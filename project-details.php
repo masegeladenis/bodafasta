@@ -95,7 +95,7 @@
 
 								<div class="desc mt-40">
 									<div class="content mb-25">
-										<p>Tanzania has over 2.1 million motorcycles generating an estimated market revenue of $388M USD. Yet the bodaboda sector remains largely informal &mdash; fragmented, unbranded, and lacking safety standards. Bodafasta is building the infrastructure to professionalize this massive market.</p>
+										<p>Tanzania has over 2.1 million motorcycles generating an estimated market revenue of TZS 970 billion. Yet the bodaboda sector remains largely informal &mdash; fragmented, unbranded, and lacking safety standards. Bodafasta is building the infrastructure to professionalize this massive market.</p>
 									</div>
 									<div class="content mb-25">
 										<h6 style="margin-bottom:10px;">Investment Model</h6>

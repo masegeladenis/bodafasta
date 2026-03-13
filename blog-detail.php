@@ -59,7 +59,7 @@
 								<h4>Why a Pilot Fleet Matters</h4>
 								<p>Rather than rushing to scale, Bodafasta is taking a methodical approach. Our pilot fleet allows us to perfect every aspect of the business: from driver onboarding and GPS tracking systems to customer service protocols and daily revenue collection. Each motorcycle in the pilot generates approximately TZS 280,000 per month in net revenue, validating the financial model that underpins our growth plan.</p>
 								<blockquote>
-									<div class="blockquote-text"><span class="quote icofont-quote-left"></span>With 2.1 million motorcycles in Tanzania and a $388M market, <br> the opportunity isn't whether bodaboda will grow &mdash; <br> it's who will professionalize it first.</div>
+									<div class="blockquote-text"><span class="quote icofont-quote-left"></span>With 2.1 million motorcycles in Tanzania and a TZS 970 billion market, <br> the opportunity isn't whether bodaboda will grow &mdash; <br> it's who will professionalize it first.</div>
 								</blockquote>
 								<h4>What's Next</h4>
 								<p>The pilot phase runs through early 2026, during which we are collecting operational data, building brand recognition, and developing the Bodafasta App. Once the pilot validates our model, Phase II will scale the fleet to 50 motorcycles, followed by 100 by year-end 2026. Investors can participate through our Share Investment program (TZS 3.5M per share, each financing one motorcycle) or our Bond program (TZS 70,000 per bond at 15% annual dividend).</p>

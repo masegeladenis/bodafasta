@@ -303,7 +303,7 @@
 						<div class="inner-box">
 							<div class="quote icofont-quote-right"></div>
 							<div class="author">Market Opportunity <span>/ Tanzania</span></div>
-							<div class="text">Over 2.1 million motorcycles in Tanzania, growing 15% annually. The bodaboda sector is a USD multi-billion market ripe for disruption through technology and professionalization.</div>
+							<div class="text">Over 2.1 million motorcycles in Tanzania, growing 15% annually. The bodaboda sector is a TZS multi-billion market ripe for disruption through technology and professionalization.</div>
 						</div>
 					</div>
 					
