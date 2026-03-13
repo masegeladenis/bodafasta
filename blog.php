@@ -62,10 +62,10 @@
 						<div class="news-block-three">
 							<div class="inner-box">
 								<div class="image">
-									<a href="blog-detail"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
+									<a href="blog-investment"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
 								</div>
 								<div class="title">Investment</div>
-								<h4><a href="blog-detail">Why Bodaboda Transportation Is East Africa's Next Big Investment Opportunity</a></h4>
+								<h4><a href="blog-investment">Why Bodaboda Transportation Is East Africa's Next Big Investment Opportunity</a></h4>
 								<div class="post-date">February 10th, 2025 by <span>Admin</span></div>
 							</div>
 						</div>
@@ -79,18 +79,6 @@
 								<div class="title">Safety</div>
 								<h4><a href="blog-detail">How Bodafasta Is Revolutionizing Rider Safety With GPS and Insurance</a></h4>
 								<div class="post-date">March 5th, 2025 by <span>Admin</span></div>
-							</div>
-						</div>
-						
-						<!-- News Block Three -->
-						<div class="news-block-three">
-							<div class="inner-box">
-								<div class="image">
-									<a href="blog-detail"><img src="images/resource/news-7.jpg" alt="Bodafasta App" /></a>
-								</div>
-								<div class="title">Technology</div>
-								<h4><a href="blog-detail">Bodafasta App Development: From Vision to Digital Platform</a></h4>
-								<div class="post-date">April 12th, 2025 by <span>Admin</span></div>
 							</div>
 						</div>
 						

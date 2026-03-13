@@ -98,11 +98,11 @@
 							<div class="news-block-four col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box">
 									<div class="image">
-										<a href="blog-detail"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
+										<a href="blog-investment"><img src="images/resource/news-5.jpg" alt="Bodafasta Investment" /></a>
 									</div>
 									<div class="lower-content">
 										<div class="title">Investment</div>
-										<h4><a href="blog-detail">Why Bodaboda Is East Africa's Next Big Opportunity</a></h4>
+										<h4><a href="blog-investment">Why Bodaboda Is East Africa's Next Big Opportunity</a></h4>
 									</div>
 								</div>
 							</div>
