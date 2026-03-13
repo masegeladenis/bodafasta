@@ -12,12 +12,11 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Contact Bodafasta - Get In Touch With Us" />
-<meta property="og:url" content="contact.php" />
+<meta property="og:url" content="https://bodafasta.co.tz/contact" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Contact Bodafasta Tanzania for ride services, parcel delivery, investment inquiries, or partnership opportunities." />
 
-</script>
 </head>
 
 <body>
@@ -51,7 +50,12 @@
 					<!-- Column -->
 					<div class="column col-lg-6 col-md-6 col-sm-12">
 						<div class="call">Call directly:<br><a href="tel:+255767306986">+255 767 306 986</a></div>
-						<ul class="location-list">
+						<div style="margin-top:15px;">
+							<a href="https://wa.me/255767306986" target="_blank" rel="noopener" style="display:inline-block; background:#25d366; color:#fff; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:600;">
+								<span class="icofont-brand-whatsapp" style="margin-right:8px;"></span> Chat on WhatsApp
+							</a>
+						</div>
+						<ul class="location-list" style="margin-top:20px;">
 							<li><span>Service Areas:</span>Dar es Salaam | Dodoma | Arusha | Mwanza <br> and expanding across Tanzania</li>
 							<li><span>Work Hours:</span>Mon - Sat: 7.00 - 20.00, Sunday: 8.00 - 18.00</li>
 						</ul>
@@ -78,11 +82,18 @@
 								</div>
 
 								<div class="col-lg-4 col-md-6 col-sm-12 form-group">
-									<input type="email" name="email" placeholder="Emaill Address *" required>
+									<input type="email" name="email" placeholder="Email Address *" required>
 								</div>
 
 								<div class="col-lg-4 col-md-12 col-sm-12 form-group">
-									<input type="text" name="subject" placeholder="Subject (Optional)" required>
+									<select name="subject" class="custom-select-box" style="width:100%; height:50px; border:1px solid #e0e0e0; padding:0 15px;">
+										<option value="">Select Topic *</option>
+										<option value="Ride & Delivery Services">Ride &amp; Delivery Services</option>
+										<option value="Become a Driver">Become a Driver</option>
+										<option value="Business Partnership">Business Partnership</option>
+										<option value="Investment Inquiry">Investment Inquiry</option>
+										<option value="General Question">General Question</option>
+									</select>
 								</div>
 
 								<div class="col-lg-12 col-md-12 col-sm-12 form-group">
@@ -105,7 +116,7 @@
 			
 		</div>
 	</div>
-	<!-- End Blog Detail Section -->
+	<!-- End Contact Page Section -->
 	
 
 	<?php include 'includes/footer.php'; ?>

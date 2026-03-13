@@ -20,11 +20,10 @@
 						<!-- Social Box -->
 						<ul class="social-box">
 							<li class="share">Our Social</li>
-							<li><a href="https://twitter.com/" class="icofont-twitter"></a></li>
-							<li><a href="http://facebook.com/" class="icofont-facebook"></a></li>
-							<li><a href="https://www.instagram.com/" class="icofont-instagram"></a></li>
-							<li><a href="https://rss.com/" class="icofont-rss"></a></li>
-							<li><a href="https://www.youtube.com/" class="icofont-play-alt-1"></a></li>
+							<li><a href="#" class="icofont-twitter"></a></li>
+							<li><a href="#" class="icofont-facebook"></a></li>
+							<li><a href="#" class="icofont-instagram"></a></li>
+							<li><a href="https://wa.me/255767306986" class="icofont-brand-whatsapp"></a></li>
 						</ul>
                     </div>
 					
@@ -69,12 +68,7 @@
 											<li><a href="project-details">Financial Projections</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="blog">Blog</a>
-										<ul class="from-right">
-											<li><a href="blog">Our Blog</a></li>
-											<li><a href="blog-detail">Blog Detail</a></li>
-										</ul>
-									</li>
+									<li><a href="blog">Blog</a></li>
 									<li><a href="contact">Contact</a></li>
 								</ul>
 							</div>

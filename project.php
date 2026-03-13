@@ -4,16 +4,16 @@
 <head>
 <meta charset="UTF-8">
 <title>Bodafasta Growth Plan - Investment & Financial Projections</title>
-<meta name="description" content="Explore Bodafasta's growth plan, financial projections, and investment opportunity. USD 147,500 for 20% equity in Tanzania's motorcycle transportation revolution."/>
+<meta name="description" content="Explore Bodafasta's growth plan and investment opportunity. Buy shares (TZS 3.5M each) or bonds (TZS 70K at 15% dividend) in Tanzania's motorcycle transportation revolution."/>
 <?php include 'includes/headlink.php'; ?>
 
 <!-- Open Graph (OG) meta tags are snippets of code that control how URLs are displayed when shared on social media  -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta Growth Plan - Investment & Financial Projections" />
-<meta property="og:url" content="project.php" />
+<meta property="og:url" content="https://bodafasta.co.tz/project" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Explore Bodafasta's growth plan, financial projections, and investment opportunity." />
 
 </head>
@@ -109,8 +109,8 @@
 								<img src="images/gallery/1.jpg" alt="" />
 								<div class="overlay-box">
 									<div class="overlay-inner">
-										<h3><a href="project-details">USD 147,500 Investment</a></h3>
-										<div class="designation">20% Equity Opportunity</div>
+										<h3><a href="project-details">Invest in Bodafasta</a></h3>
+										<div class="designation">Shares &bull; Bonds &bull; Growth Returns</div>
 										<a href="project-details" class="arrow ti-angle-right"></a>
 									</div>
 								</div>
@@ -123,6 +123,66 @@
 		</div>
 	</div>
 	<!-- End Project Section -->
+	
+	<!-- Growth Timeline Section -->
+	<div class="services-section section-padding" style="background:#f7f7f7;">
+		<div class="auto-container">
+			<div class="sec-title centered">
+				<div class="title">growth timeline</div>
+				<h2><span>Phased</span> Expansion Plan</h2>
+			</div>
+			<div class="inner-container">
+				<div class="row g-0">
+				
+					<!-- Phase Block -->
+					<div class="service-block col-lg-3 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="icon-box">
+								<span class="icon ti-flag-alt"></span>
+							</div>
+							<h5>Phase I &mdash; Pilot</h5>
+							<div class="text"><strong>5 Motorcycles</strong><br>Proof of concept in Dar es Salaam. Driver training, revenue validation, brand building.</div>
+						</div>
+					</div>
+					
+					<!-- Phase Block -->
+					<div class="service-block col-lg-3 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="icon-box">
+								<span class="icon ti-rocket"></span>
+							</div>
+							<h5>2026 &mdash; Scale</h5>
+							<div class="text"><strong>100 Motorcycles</strong><br>TZS 1M daily revenue. App launch. Full Dar es Salaam coverage. B2B logistics.</div>
+						</div>
+					</div>
+					
+					<!-- Phase Block -->
+					<div class="service-block col-lg-3 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="icon-box">
+								<span class="icon ti-world"></span>
+							</div>
+							<h5>2027 &mdash; Expand</h5>
+							<div class="text"><strong>500 Motorcycles</strong><br>TZS 5M daily revenue. Expansion to Dodoma &amp; Arusha. Regional offices.</div>
+						</div>
+					</div>
+					
+					<!-- Phase Block -->
+					<div class="service-block col-lg-3 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="icon-box">
+								<span class="icon ti-crown"></span>
+							</div>
+							<h5>2028 &mdash; Dominate</h5>
+							<div class="text"><strong>1,000 Motorcycles</strong><br>TZS 10M daily revenue. Mwanza expansion. Manufacturing planning phase.</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Growth Timeline Section -->
 	
 	<?php include 'includes/footer.php'; ?>
 	

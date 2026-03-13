@@ -12,9 +12,9 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta Investment Calculator - Calculate Your Returns" />
-<meta property="og:url" content="calculator.php" />
+<meta property="og:url" content="https://bodafasta.co.tz/calculator" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Estimate your returns from Bodafasta share and bond investments." />
 
 <style>

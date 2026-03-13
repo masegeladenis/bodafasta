@@ -12,11 +12,11 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania" />
-<meta property="og:url" content="PAGE_URL" />
+<meta property="og:url" content="https://bodafasta.co.tz/" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
 
 <!-- For the og:image content, replace the # with a link of an image -->
-<meta property="og:image" content="#" />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta is transforming the bodaboda industry in Tanzania with technology-driven motorcycle transportation services. Join us as an investor." />
 
 
@@ -40,10 +40,11 @@
 						<div class="content-column col-lg-7 col-md-12 col-sm-12">
 							<div class="inner-column">
 								<div class="title">Bodafasta Tanzania</div>
-								<h1>Revolutionizing <span>Motorcycle</span> Transportation</h1>
-								<div class="text">Safe, reliable, and technology-driven bodaboda services <br> creating sustainable employment across Tanzania. <br> Join us in transforming urban mobility.</div>
+								<h1>Smart <span>Motorcycle</span> Transport & Delivery Platform</h1>
+								<div class="text">Safe, reliable, and technology-driven bodaboda services <br> creating sustainable employment across Tanzania. <br> Book rides, send parcels, or invest in the future.</div>
 								<div class="btn-box">
-									<a href="about" class="theme-btn btn-style-one"><span class="txt">Discover More</span></a>
+									<a href="service" class="theme-btn btn-style-one"><span class="txt">Our Services</span></a>
+									<a href="calculator" class="theme-btn btn-style-one" style="margin-left:10px; background:#222;"><span class="txt">Invest Now</span></a>
 								</div>
 							</div>
 						</div>
@@ -61,10 +62,11 @@
 						<div class="content-column col-lg-7 col-md-12 col-sm-12">
 							<div class="inner-column">
 								<div class="title">Investment Opportunity</div>
-								<h1>USD 147,500 for <span>20% Equity</span></h1>
-								<div class="text">A scalable business model with projected ROI exceeding 20% annually. <br> 2.1 million motorcycles in Tanzania &mdash; a rapidly growing market. <br> Be part of the bodaboda revolution.</div>
+								<h1>Own Shares in <span>Tanzania's</span> Transport Revolution</h1>
+								<div class="text">1 Share = 1 Motorcycle = TZS 3,500,000 = 0.2% Equity. <br> Bonds from TZS 70,000 with 15% annual dividend. <br> Use our Investment Calculator to plan your returns.</div>
 								<div class="btn-box">
-									<a href="project" class="theme-btn btn-style-one"><span class="txt">View Investment Plan</span></a>
+									<a href="calculator" class="theme-btn btn-style-one"><span class="txt">Investment Calculator</span></a>
+									<a href="project-details" class="theme-btn btn-style-one" style="margin-left:10px; background:#222;"><span class="txt">View Financials</span></a>
 								</div>
 							</div>
 						</div>
@@ -123,8 +125,8 @@
 								<h2>Transforming <span>Bodaboda</span> <br> <span>Transportation</span> in Tanzania</h2>
 							</div>
 							<div class="text">
-								<p>Bodafasta is a Tanzanian transportation company revolutionizing the motorcycle taxi ("bodaboda") sector through the integration of technology and modern business practices. Our vision is to formalize the bodaboda industry by creating sustainable, high-quality employment opportunities for drivers and office staff while enhancing safety and reliability.</p>
-								<p>With a current fleet generating TZS 1,400,000 in monthly revenue, our ambitious goal is to grow to 10,000 motorcycles and create a profitable ecosystem supported by employment, technology, and future manufacturing industries across Tanzania.</p>
+								<p>Bodafasta is a Tanzanian transportation company professionalizing the motorcycle taxi ("bodaboda") sector. We own our fleet, train our drivers, and use technology to deliver safe, reliable rides and deliveries. Unlike traditional operators, Bodafasta controls the full value chain from vehicles to customer experience.</p>
+								<p><strong>Currently operating:</strong> Pilot fleet in Dar es Salaam generating TZS 1,400,000 monthly revenue. <strong>Expansion plan:</strong> Scale to 100 motorcycles (2026), 500 (2027), and 1,000 (2028) across Tanzania's major cities.</p>
 							</div>
 						</div>
 					</div>
@@ -134,6 +136,44 @@
 		</div>
 	</div>
 	<!-- End About Section -->
+	
+	<!-- Trust Signals / Key Metrics Section -->
+	<div class="fun-fact-section" style="background:#116cd1; padding:50px 0;">
+		<div class="auto-container">
+			<div class="row clearfix text-center">
+				
+				<div class="counter-column col-lg-3 col-md-6 col-sm-6 col-12">
+					<div class="inner" style="color:#fff;">
+						<div style="font-size:42px; font-weight:700; color:#fff;">2.1M+</div>
+						<div style="font-size:14px; text-transform:uppercase; letter-spacing:1px; margin-top:8px; color:rgba(255,255,255,0.85);">Motorcycles in Tanzania</div>
+					</div>
+				</div>
+				
+				<div class="counter-column col-lg-3 col-md-6 col-sm-6 col-12">
+					<div class="inner" style="color:#fff;">
+						<div style="font-size:42px; font-weight:700; color:#fff;">$388M</div>
+						<div style="font-size:14px; text-transform:uppercase; letter-spacing:1px; margin-top:8px; color:rgba(255,255,255,0.85);">Market Revenue (USD)</div>
+					</div>
+				</div>
+				
+				<div class="counter-column col-lg-3 col-md-6 col-sm-6 col-12">
+					<div class="inner" style="color:#fff;">
+						<div style="font-size:42px; font-weight:700; color:#fff;">100%</div>
+						<div style="font-size:14px; text-transform:uppercase; letter-spacing:1px; margin-top:8px; color:rgba(255,255,255,0.85);">Fleet Ownership Model</div>
+					</div>
+				</div>
+				
+				<div class="counter-column col-lg-3 col-md-6 col-sm-6 col-12">
+					<div class="inner" style="color:#fff;">
+						<div style="font-size:42px; font-weight:700; color:#fff;">15%</div>
+						<div style="font-size:14px; text-transform:uppercase; letter-spacing:1px; margin-top:8px; color:rgba(255,255,255,0.85);">Annual Bond Dividend</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Trust Signals Section -->
 	
 	<!-- Services Section -->
 	<div class="services-section">
@@ -338,8 +378,8 @@
 								<img src="images/gallery/1.jpg" alt="Investment Opportunity" />
 								<div class="overlay-box">
 									<div class="overlay-inner">
-										<h3><a href="project-details">USD 147,500 Investment</a></h3>
-										<div class="designation">20% Equity &bull; 20%+ Annual ROI</div>
+										<h3><a href="project-details">Invest in Bodafasta</a></h3>
+										<div class="designation">Shares &bull; Bonds &bull; Growth</div>
 										<a href="project-details" class="arrow ti-angle-right"></a>
 									</div>
 								</div>
@@ -422,7 +462,7 @@
 									<!--Form Group-->
 									<div class="form-group">
 										<label>full name</label>
-										<input type="text" name="name" value="" placeholder="Jason Staham" required>
+										<input type="text" name="name" value="" placeholder="Your Full Name" required>
 									</div>
 									<!--Form Group-->
 									<div class="form-group">
@@ -432,12 +472,13 @@
 									<!--Form Group-->
 									<div class="form-group">
 										<label>topics</label>
-										<select class="custom-select-box">
+										<select class="custom-select-box" name="topic">
 											<option>Choose topic</option>
-											<option>Topic 01</option>
-											<option>Topic 02</option>
-											<option>Topic 03</option>
-											<option>Topic 04</option>
+											<option>Ride & Delivery Services</option>
+											<option>Become a Driver</option>
+											<option>Business Partnership</option>
+											<option>Investment Inquiry</option>
+											<option>General Question</option>
 										</select>
 									</div>
 									<!--Form Group-->
@@ -529,7 +570,7 @@
 									<div class="inner-column">
 										<div class="arrow-one"></div>
 										<div class="title">Phase I &amp; II</div>
-										<h4><a href="project">5 to 50 Motorcycles <br> Building the Foundation <br> USD 63,333 Investment</a></h4>
+										<h4><a href="project">5 to 50 Motorcycles <br> Building the Foundation <br> Pilot & App Launch</a></h4>
 										<div class="post-date">Months 1-5 <span>Operational Setup</span></div>
 										</div>
 									</div>
@@ -546,7 +587,7 @@
 										<div class="inner-column">
 											<div class="arrow-two"></div>
 											<div class="title">Phase III & IV</div>
-											<h4><a href="project">50 to 100 Motorcycles <br> Scaling Operations <br> USD 63,333 Investment</a></h4>
+											<h4><a href="project">50 to 100 Motorcycles <br> Scaling Operations <br> Dar es Salaam Coverage</a></h4>
 											<div class="post-date">Months 5-12 <span>Market Expansion</span></div>
 										</div>
 									</div>
@@ -554,7 +595,7 @@
 									<div class="image-column col-lg-6 col-md-6 col-sm-12 order-lg-2 order-1">
 										<div class="inner-column">
 											<div class="image">
-												<a href="blog-detail.html"><img src="images/resource/news-2.jpg" alt="Phase III" /></a>
+												<a href="blog-detail"><img src="images/resource/news-2.jpg" alt="Phase III" /></a>
 											</div>
 										</div>
 									</div>

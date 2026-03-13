@@ -21,6 +21,11 @@
 										<a class="phone" href="tel:+255767306986">+255 767 306 986</a>
 										<a class="email" href="mailto:bodafastatanzania@gmail.com">bodafastatanzania@gmail.com</a>
 									</div>
+									<div style="margin-top:10px;">
+										<a href="https://wa.me/255767306986" target="_blank" rel="noopener" style="color:#25d366; font-weight:600; text-decoration:none;">
+											<span class="icofont-brand-whatsapp"></span> WhatsApp Us
+										</a>
+									</div>
 								</div>
 							</div>
 							
@@ -32,7 +37,7 @@
 										<li><a href="about">About Bodafasta</a></li>
 										<li><a href="service">Our Services</a></li>
 										<li><a href="project">Growth Plan</a></li>
-										<li><a href="project-details">Investment</a></li>
+										<li><a href="calculator">Investment Calculator</a></li>
 										<li><a href="contact">Contact Us</a></li>
 									</ul>
 								</div>
@@ -62,9 +67,9 @@
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget newsletter-widget">
 									<h5>Invest With Us</h5>
-									<div class="text">Interested in joining the Bodafasta journey? We offer 20% equity for investors. Get in touch to learn more about our growth plan.</div>
+									<div class="text">Invest from TZS 70,000 (bonds) or TZS 3.5M (shares). Earn 15% annual dividends on bonds. Use our Investment Calculator to plan your returns.</div>
 									<div class="btn-box" style="margin-top:15px;">
-										<a href="contact" class="theme-btn btn-style-one"><span class="txt">Get In Touch</span></a>
+										<a href="calculator" class="theme-btn btn-style-one"><span class="txt">Investment Calculator</span></a>
 									</div>
 								</div>
 							</div>
@@ -87,9 +92,10 @@
 							
 							<div class="col-lg-4 col-md-12 col-sm-12">
 								<ul class="social-nav">
-									<li><a href="https://twitter.com/" class="icofont-twitter"></a></li>
-									<li><a href="http://facebook.com/" class="icofont-facebook"></a></li>
-									<li><a href="https://www.instagram.com/" class="icofont-instagram"></a></li>
+									<li><a href="#" class="icofont-twitter"></a></li>
+									<li><a href="#" class="icofont-facebook"></a></li>
+									<li><a href="#" class="icofont-instagram"></a></li>
+									<li><a href="https://wa.me/255767306986" class="icofont-brand-whatsapp"></a></li>
 								</ul>
 							</div>
 							

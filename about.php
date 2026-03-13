@@ -12,9 +12,9 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="About Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania" />
-<meta property="og:url" content="about.php" />
+<meta property="og:url" content="https://bodafasta.co.tz/about" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta is transforming bodaboda transportation in Tanzania through asset ownership, a technology-driven app, and comprehensive driver training." />
 
 

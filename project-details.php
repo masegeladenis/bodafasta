@@ -3,19 +3,19 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Bodafasta Investment Details - USD 147,500 for 20% Equity</title>
-<meta name="description" content="Detailed investment breakdown for Bodafasta Tanzania. USD 147,500 seed funding for 20% equity &mdash; fleet acquisition, app development, and operational setup."/>
+<title>Bodafasta Investment Details - Shares & Bonds</title>
+<meta name="description" content="Detailed investment breakdown for Bodafasta Tanzania. Share investment from TZS 3.5M and bonds from TZS 70K with 15% annual dividend."/>
 
 <?php include 'includes/headlink.php'; ?>
 
 <!-- Open Graph (OG) meta tags are snippets of code that control how URLs are displayed when shared on social media  -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Bodafasta Investment Details - USD 147,500 for 20% Equity" />
-<meta property="og:url" content="project-details.php" />
+<meta property="og:title" content="Bodafasta Investment Details - Shares & Bonds" />
+<meta property="og:url" content="https://bodafasta.co.tz/project-details" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
-<meta property="og:description" content="Detailed investment breakdown for Bodafasta Tanzania. USD 147,500 seed funding for 20% equity." />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:description" content="Detailed investment breakdown for Bodafasta Tanzania. Share investment from TZS 3.5M and bonds from TZS 70K with 15% annual dividend." />
 
 
 </head>
@@ -63,12 +63,17 @@
 
 								<div class="details-list">
 									<label>Investment Ask</label>
-									<span>USD 147,500 for 20% Equity</span>
+									<span>TZS 3.5M per Share (0.2% Equity)</span>
 								</div>
 
 								<div class="details-list">
 									<label>Sector</label>
 									<span>Transportation, Technology, Logistics</span>
+								</div>
+
+								<div class="details-list">
+									<label>Bond</label>
+									<span>TZS 70,000 &mdash; 15% Annual Dividend</span>
 								</div>
 
 							</div>
@@ -86,31 +91,34 @@
 					<div class="work-left work-details mt-lg-30">
 						<div class="work-main-info">
 							<div class="work-content">
-								<h6 class="title">ABOUT THE PROJECT</h6>
+								<h6 class="title">THE OPPORTUNITY</h6>
 
 								<div class="desc mt-40">
 									<div class="content mb-25">
-										<p>Digital marketing encompasses all marketing efforts
-											that use an electronic device or the internet. Businesses leverage
-											digital channels such as search engines, social media, email, and
-											their websites to connect with current and prospective customers.</p>
+										<p>Tanzania has over 2.1 million motorcycles generating an estimated market revenue of $388M USD. Yet the bodaboda sector remains largely informal &mdash; fragmented, unbranded, and lacking safety standards. Bodafasta is building the infrastructure to professionalize this massive market.</p>
 									</div>
 									<div class="content mb-25">
-										<p>It is. In fact, &ldquo;constant&rdquo; internet usage among
-											adults increased by 5% in just the last three years, according to
-											Pew Research. And although we say it a lot, the way people shop and
-											buy really has changed along with it &mdash; meaning offline marketing
-											isn't as effective as it used to be.</p>
+										<h6 style="margin-bottom:10px;">Investment Model</h6>
+										<p><strong>Share Investment:</strong> 1 Share = 1 Motorcycle = TZS 3,500,000 = 0.2% Equity. Minimum: 1 share. Maximum: 100 shares (20% equity, TZS 350,000,000). Each share directly finances one company-owned motorcycle generating daily revenue.</p>
+										<p><strong>Bond Investment:</strong> TZS 70,000 per bond with 15% annual dividend (simple interest). Maximum: 1,000 bonds. Bonds provide a fixed-income return paid annually on the principal amount.</p>
+									</div>
+									<div class="content mb-25">
+										<h6 style="margin-bottom:10px;">Use of Funds</h6>
+										<ul style="list-style:disc; padding-left:20px; line-height:2;">
+											<li>Motorcycle fleet acquisition &amp; registration</li>
+											<li>Driver recruitment, training &amp; welfare programs</li>
+											<li>Bodafasta App development &amp; GPS infrastructure</li>
+											<li>Insurance, safety gear &amp; maintenance facilities</li>
+											<li>Marketing, branding &amp; operational setup</li>
+										</ul>
 									</div>
 									<div class="content mb-60">
-										<p>Marketing has always been about connecting with your
-											audience in the right place and at the right time. Today, that
-											means you need to meet them where they are already spending time:
-											on the internet. (Source: blog.hubspot.com)</p>
+										<h6 style="margin-bottom:10px;">Risk Disclosure</h6>
+										<p>All investments carry risk. Projected returns are based on business plan estimates and are not guaranteed. Market conditions, regulatory changes, and operational challenges may affect actual performance. Investors should evaluate their risk tolerance before investing. Bodafasta is committed to transparent reporting and regular investor communication.</p>
 									</div>
 
 									<div class="work-btn">
-										<a class="theme-btn btn-style-one" href="#"><span class="txt">Go to link</span></a>
+										<a class="theme-btn btn-style-one" href="calculator"><span class="txt">Investment Calculator</span></a>
 									</div>
 
 								</div>

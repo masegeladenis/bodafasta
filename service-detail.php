@@ -12,9 +12,9 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta App - Technology-Driven Motorcycle Transportation" />
-<meta property="og:url" content="service-detail.php" />
+<meta property="og:url" content="https://bodafasta.co.tz/service-detail" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Discover the Bodafasta App &mdash; ride-hailing, parcel delivery, GPS tracking, and digital payments for motorcycle transportation in Tanzania." />
 
 </head>
@@ -142,7 +142,7 @@
 											<div class="acc-btn"><div class="icon-outer"><span class="icon icofont-plus"></span> <span class="icon icofont-minus"></span></div>How can I invest in Bodafasta?</div>
 											<div class="acc-content">
 												<div class="content">
-													<div class="accordian-text">Bodafasta is seeking USD 147,500 in seed funding for 20% equity. This investment will fund fleet acquisition (100 motorcycles), app development, driver training, and initial operations. Contact us at bodafastatanzania@gmail.com or +255 767 306 986 for the full investment proposal.</div>
+													<div class="accordian-text">Bodafasta offers two investment options: Share Investment (TZS 3,500,000 per share = 1 motorcycle = 0.2% equity, up to 100 shares) and Bond Investment (TZS 70,000 per bond at 15% annual dividend). Use our Investment Calculator at bodafasta.co.tz/calculator or contact us at bodafastatanzania@gmail.com or +255 767 306 986.</div>
 												</div>
 											</div>
 										</li>

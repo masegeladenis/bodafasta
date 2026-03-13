@@ -24,10 +24,10 @@
 							<a href="#"><img src="images/resource/team-1.jpg" alt="Victor Kajala" /></a>
 							<!-- Social Box -->
 							<ul class="social-box">
-								<li><a href="https://twitter.com/" class="icofont-twitter"></a></li>
-								<li><a href="http://facebook.com/" class="icofont-facebook"></a></li>
-								<li><a href="https://www.instagram.com/" class="icofont-instagram"></a></li>
-								<li><a href="https://www.linkedin.com/" class="icofont-linkedin"></a></li>
+								<li><a href="#" class="icofont-twitter"></a></li>
+								<li><a href="#" class="icofont-facebook"></a></li>
+								<li><a href="#" class="icofont-instagram"></a></li>
+								<li><a href="#" class="icofont-linkedin"></a></li>
 							</ul>
 						</div>
 						<div class="lower-box mt-0">
@@ -44,10 +44,10 @@
 							<a href="#"><img src="images/resource/team-2.jpg" alt="Operations Lead" /></a>
 							<!-- Social Box -->
 							<ul class="social-box">
-								<li><a href="https://twitter.com/" class="icofont-twitter"></a></li>
-								<li><a href="http://facebook.com/" class="icofont-facebook"></a></li>
-								<li><a href="https://www.instagram.com/" class="icofont-instagram"></a></li>
-								<li><a href="https://www.linkedin.com/" class="icofont-linkedin"></a></li>
+								<li><a href="#" class="icofont-twitter"></a></li>
+								<li><a href="#" class="icofont-facebook"></a></li>
+								<li><a href="#" class="icofont-instagram"></a></li>
+								<li><a href="#" class="icofont-linkedin"></a></li>
 							</ul>
 						</div>
 						<div class="lower-box mt-0">
@@ -64,10 +64,10 @@
 							<a href="#"><img src="images/resource/team-3.jpg" alt="Technology Lead" /></a>
 							<!-- Social Box -->
 							<ul class="social-box">
-								<li><a href="https://twitter.com/" class="icofont-twitter"></a></li>
-								<li><a href="http://facebook.com/" class="icofont-facebook"></a></li>
-								<li><a href="https://www.instagram.com/" class="icofont-instagram"></a></li>
-								<li><a href="https://www.linkedin.com/" class="icofont-linkedin"></a></li>
+								<li><a href="#" class="icofont-twitter"></a></li>
+								<li><a href="#" class="icofont-facebook"></a></li>
+								<li><a href="#" class="icofont-instagram"></a></li>
+								<li><a href="#" class="icofont-linkedin"></a></li>
 							</ul>
 						</div>
 						<div class="lower-box mt-0">

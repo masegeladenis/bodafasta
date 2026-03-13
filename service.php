@@ -13,9 +13,9 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta Services - Motorcycle Transportation & Delivery" />
-<meta property="og:url" content="service.php" />
+<meta property="og:url" content="https://bodafasta.co.tz/service" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Explore Bodafasta services: on-demand rides, parcel delivery, scheduled rides, GPS tracking, and the Bodafasta App." />
 
 </head>

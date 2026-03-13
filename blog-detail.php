@@ -3,19 +3,19 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Bodafasta Blog Detail - Motorcycle Transportation Tanzania</title>
-<meta name="description" content="Read the latest updates and insights from Bodafasta Tanzania &mdash; motorcycle transportation, logistics, investment, and technology."/>
+<title>Bodafasta Launches Pilot Fleet in Dar es Salaam</title>
+<meta name="description" content="Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector."/>
 
 <?php include 'includes/headlink.php'; ?>
 
 <!-- Open Graph (OG) meta tags are snippets of code that control how URLs are displayed when shared on social media  -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Bodafasta Blog Detail" />
-<meta property="og:url" content="blog-detail.php" />
+<meta property="og:title" content="Bodafasta Launches Pilot Fleet in Dar es Salaam" />
+<meta property="og:url" content="https://bodafasta.co.tz/blog-detail" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="images/about/home-about.png" />
-<meta property="og:description" content="Read the latest updates and insights from Bodafasta Tanzania." />
+<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:description" content="Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector." />
 
 
 </head>
@@ -51,21 +51,23 @@
 								<img src="images/resource/news-9.jpg" alt="" />
 							</div>
 							<div class="lower-content">
-								<div class="post-info"><span class="theme_color">business</span> -  December 14th, 2020 by <i>Admin</i></div>
-								<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it's because we're too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: &ldquo;Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends' embarrassment, the failing career, the dwindling income, the repossessed house, the divorce&hellip;&rdquo; We know self-censoring by many names. Carl Jung called it our &ldquo;inner critic.&rdquo; Michael Ray and Rochelle Myers called it the &ldquo;voice of judgment&rdquo; in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends' embarrassment, the failing career, the dwindling income, the repossessed </p>
+								<div class="post-info"><span class="theme_color">Company News</span> -  January 15th, 2025 by <i>Admin</i></div>
+								<p>Bodafasta has officially launched its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first concrete step in our mission to professionalize Tanzania's bodaboda sector. The pilot phase is designed to test our operational model, refine our driver training programs, and validate our revenue projections before scaling to 100 motorcycles in 2026.</p>
 								<div class="middle-image">
-									<img src="images/resource/news-10.jpg" alt="" />
+									<img src="images/resource/news-10.jpg" alt="Bodafasta pilot fleet motorcycles" />
 								</div>
-								<h4>Gathered Was Isn't Fruitful Every</h4>
-								<p>Give void had the creature man evening two be for heaven won't you're may. Subdue him. Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you'll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you're two beast, moved, every. Evening their us seas.</p>
+								<h4>Why a Pilot Fleet Matters</h4>
+								<p>Rather than rushing to scale, Bodafasta is taking a methodical approach. Our pilot fleet allows us to perfect every aspect of the business: from driver onboarding and GPS tracking systems to customer service protocols and daily revenue collection. Each motorcycle in the pilot generates approximately TZS 280,000 per month in net revenue, validating the financial model that underpins our growth plan.</p>
 								<blockquote>
-									<div class="blockquote-text"><span class="quote icofont-quote-left"></span>Our greatest weakness lies in giving up. <br> The most certain way to succeed is always to <br> try just one more time.</div>
+									<div class="blockquote-text"><span class="quote icofont-quote-left"></span>With 2.1 million motorcycles in Tanzania and a $388M market, <br> the opportunity isn't whether bodaboda will grow &mdash; <br> it's who will professionalize it first.</div>
 								</blockquote>
-								<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive. </p>
+								<h4>What's Next</h4>
+								<p>The pilot phase runs through early 2026, during which we are collecting operational data, building brand recognition, and developing the Bodafasta App. Once the pilot validates our model, Phase II will scale the fleet to 50 motorcycles, followed by 100 by year-end 2026. Investors can participate through our Share Investment program (TZS 3.5M per share, each financing one motorcycle) or our Bond program (TZS 70,000 per bond at 15% annual dividend).</p>
+								<p>Bodafasta is not just a transportation company &mdash; we're building the infrastructure for a safer, more professional, and technology-driven bodaboda industry in Tanzania. Our drivers receive training, insurance, and fair employment terms that set a new standard for the sector.</p>
 								
 								<!-- Post Share Options-->
 								<div class="post-share-options">
-									<div class="tags"><a href="#">Structure</a> <a href="#">Envato</a> <a href="#">Premium</a></div>
+									<div class="tags"><a href="#">Bodaboda</a> <a href="#">Investment</a> <a href="#">Tanzania</a></div>
 								</div>
 								
 							</div>
