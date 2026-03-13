@@ -1042,7 +1042,9 @@ function printProjection(type) {
 	}
 
 	var dateStr = new Date().toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'});
-	var logoUrl = window.location.href.replace(/[^\/]*$/, '') + 'images/logo.png';
+	var basePath = window.location.href.replace(/[^\/]*$/, '');
+	var logoUrl = basePath + 'images/logo.png';
+	var faviconLink = '<link rel="icon" type="image/png" href="' + basePath + 'images/favicon-96x96.png">';
 
 	var win = window.open('', '_blank');
 	win.document.write('<!DOCTYPE html><html><head><meta charset="UTF-8">' + faviconLink + '<title>Bodafasta &mdash; ' + title + '</title>');
