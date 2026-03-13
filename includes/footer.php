@@ -1,4 +1,4 @@
-﻿	<!-- Main Footer -->
+	<!-- Main Footer -->
     <footer class="main-footer style-two">
 		<div class="auto-container">
         	<!--Widgets Section-->
@@ -19,7 +19,7 @@
 									<div class="call">
 										Call us directly
 										<a class="phone" href="tel:+255767306986">+255 767 306 986</a>
-										<a class="email" href="mailto:Victorion@gmail.com">Victorion@gmail.com</a>
+										<a class="email" href="mailto:bodafastatanzania@gmail.com">bodafastatanzania@gmail.com</a>
 									</div>
 								</div>
 							</div>

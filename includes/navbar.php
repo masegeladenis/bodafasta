@@ -1,4 +1,4 @@
-﻿    <!-- Main Header-->
+    <!-- Main Header-->
     <header class="main-header style-two">
     	
 		<!-- Header Top -->
@@ -9,7 +9,7 @@
 					<div class="top-left">
 						<!-- Info List -->
 						<ul class="info-list">
-							<li><a href="mailto:Victorion@gmail.com"><span class="icon icofont-envelope"></span> Victorion@gmail.com</a></li>
+							<li><a href="mailto:bodafastatanzania@gmail.com"><span class="icon icofont-envelope"></span> bodafastatanzania@gmail.com</a></li>
 							<li><a href="tel:+255767306986"><span class="icon icofont-phone"></span> +255 767 306 986</a></li>
 							<li><a href="contact"><span class="icon icofont-clock-time"></span> Dar es Salaam, Tanzania</a></li>
 						</ul>

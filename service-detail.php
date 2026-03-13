@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -142,7 +142,7 @@
 											<div class="acc-btn"><div class="icon-outer"><span class="icon icofont-plus"></span> <span class="icon icofont-minus"></span></div>How can I invest in Bodafasta?</div>
 											<div class="acc-content">
 												<div class="content">
-													<div class="accordian-text">Bodafasta is seeking USD 147,500 in seed funding for 20% equity. This investment will fund fleet acquisition (100 motorcycles), app development, driver training, and initial operations. Contact us at Victorion@gmail.com or +255 767 306 986 for the full investment proposal.</div>
+													<div class="accordian-text">Bodafasta is seeking USD 147,500 in seed funding for 20% equity. This investment will fund fleet acquisition (100 motorcycles), app development, driver training, and initial operations. Contact us at bodafastatanzania@gmail.com or +255 767 306 986 for the full investment proposal.</div>
 												</div>
 											</div>
 										</li>

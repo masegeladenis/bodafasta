@@ -45,7 +45,7 @@
 					<div class="column col-lg-6 col-md-6 col-sm-12">
 						<h2>Dar es Salaam, <span>Tanzania</span></h2>
 						<div class="text">Bodafasta Headquarters, Dar es Salaam, <br> Tanzania</div>
-						<div class="email">Email: <a href="mailto:Victorion@gmail.com">Victorion@gmail.com</a></div>
+						<div class="email">Email: <a href="mailto:bodafastatanzania@gmail.com">bodafastatanzania@gmail.com</a></div>
 					</div>
 					
 					<!-- Column -->

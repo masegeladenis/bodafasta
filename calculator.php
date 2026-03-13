@@ -287,7 +287,7 @@
 										<div class="overlay-box">
 											<div class="overlay-inner">
 												<h3><a href="#shareCalc">Share Investment</a></h3>
-												<div class="designation">20 Shares &mdash; 20% Equity</div>
+												<div class="designation">100 Shares &mdash; 20% Equity</div>
 												<a href="#shareCalc" class="arrow ti-angle-right"></a>
 											</div>
 										</div>
@@ -375,7 +375,7 @@
 								<span class="icon ti-bar-chart"></span>
 							</div>
 							<h5><a href="#shareCalc">Share Investment</a></h5>
-							<div class="text">Own equity in Bodafasta with long-term profit sharing. 20 shares available representing 20% of the company.</div>
+							<div class="text">Own equity in Bodafasta with long-term profit sharing. 100 shares available representing 20% of the company.</div>
 							<a class="read-more" href="#shareCalc">Calculate <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
@@ -387,7 +387,7 @@
 								<span class="icon ti-money"></span>
 							</div>
 							<h5><a href="#bondCalc">Bond Investment</a></h5>
-							<div class="text">Short-term fixed-return bonds (3&ndash;5 years). 1,000 bonds available at TZS 70,000 each with 15% annual interest.</div>
+							<div class="text">Short-term fixed-return bonds (3&ndash;5 years). 1,000 bonds available at TZS 70,000 each with 15% annual dividend.</div>
 							<a class="read-more" href="#bondCalc">Calculate <span class="ti-angle-right"></span></a>
 						</div>
 					</div>
@@ -427,13 +427,13 @@
 							<div class="icon-box"><span class="ti-bar-chart"></span></div>
 							<div>
 								<h4>Share Investment</h4>
-								<p>Own equity in Bodafasta &mdash; 20 shares available (20% of the company)</p>
+								<p>Own equity in Bodafasta &mdash; 100 shares available (20% of the company)</p>
 							</div>
 						</div>
 
 						<div class="calc-info-box">
-							<strong>1 Share</strong> = 5 Motorcycles = <strong>TZS 17,500,000</strong><br>
-							Min: TZS 17,500,000 &nbsp;|&nbsp; Max: TZS 350,000,000 (20 shares)
+							<strong>1 Share</strong> = 1 Motorcycle = <strong>TZS 3,500,000</strong> = 0.2% Equity<br>
+							Min: TZS 3,500,000 &nbsp;|&nbsp; Max: TZS 350,000,000 (100 shares)
 						</div>
 
 						<div class="contact-form">
@@ -441,7 +441,7 @@
 								<label>Enter Investment Amount (TZS)</label>
 								<div class="input-prefix">
 									<span>TZS</span>
-									<input type="text" id="shareAmountInput" placeholder="e.g. 17,500,000" oninput="calcSharesByAmount()">
+									<input type="text" id="shareAmountInput" placeholder="e.g. 3,500,000" oninput="calcSharesByAmount()">
 								</div>
 							</div>
 						</div>
@@ -511,7 +511,7 @@
 							<div class="icon-box"><span class="ti-money"></span></div>
 							<div>
 								<h4>Bond Investment</h4>
-								<p>Short-term bonds (3&ndash;5 years) &mdash; 15% annual compound interest</p>
+								<p>Short-term bonds (3&ndash;5 years) &mdash; 15% annual fixed interest</p>
 							</div>
 						</div>
 
@@ -549,8 +549,8 @@
 								<strong id="bondCount">&mdash;</strong>
 							</div>
 							<div class="calc-result-row">
-								<span>Annual Interest Rate</span>
-								<strong>15%</strong>
+								<span>Annual Dividend Rate</span>
+								<strong>15% (fixed)</strong>
 							</div>
 							<div class="calc-result-row">
 								<span>Investment Period</span>
@@ -558,11 +558,11 @@
 							</div>
 							<div class="calc-profit-box">
 								<div class="calc-result-row">
-									<span>Total Interest Earned</span>
+									<span>Total Dividend Earned</span>
 									<strong id="bondInterest" class="highlight">&mdash;</strong>
 								</div>
 								<div class="calc-result-row" style="margin-bottom:0;">
-									<span style="font-weight:600;">Total Payout</span>
+									<span style="font-weight:600;">Principal + Dividends</span>
 									<strong id="bondTotal" class="highlight" style="font-size:18px;">&mdash;</strong>
 								</div>
 							</div>
@@ -649,7 +649,7 @@
 <script>
 var bondYears = 3;
 var bondRate = 0.15;
-var sharePrice = 17500000;
+var sharePrice = 3500000;
 var bondPrice = 70000;
 var shareProjectionYears = 3;
 var bondProjectionYears = 3;
@@ -702,18 +702,16 @@ function getShareProjectionData(bikes, cost, years) {
 
 function getBondProjectionData(cost, years) {
 	var data = [];
-	var balance = cost;
+	var annualInterest = cost * bondRate;
+	var cumDividend = 0;
 	for (var y = 1; y <= years; y++) {
-		var interest = balance * bondRate;
-		balance += interest;
-		var cumInterest = balance - cost;
-		var roi = ((cumInterest / cost) * 100).toFixed(1);
+		cumDividend += annualInterest;
+		var roi = ((cumDividend / cost) * 100).toFixed(1);
 		data.push({
 			year: y,
-			startBal: Math.round(balance - interest),
-			interest: Math.round(interest),
-			endBal: Math.round(balance),
-			cumInterest: Math.round(cumInterest),
+			principal: Math.round(cost),
+			interest: Math.round(annualInterest),
+			cumDividend: Math.round(cumDividend),
 			roi: roi
 		});
 	}
@@ -725,7 +723,7 @@ function renderShareProjection() {
 	if (amount < sharePrice) return;
 	var shares = Math.floor(amount / sharePrice);
 	var actualCost = shares * sharePrice;
-	var bikes = shares * 5;
+	var bikes = shares;
 	var data = getShareProjectionData(bikes, actualCost, shareProjectionYears);
 	var html = '<thead><tr><th>Year</th><th>Est. Annual Profit</th><th>Cumulative Profit</th><th>Cum. ROI</th></tr></thead><tbody>';
 	for (var i = 0; i < data.length; i++) {
@@ -743,11 +741,11 @@ function renderBondProjection() {
 	var bonds = Math.floor(amount / bondPrice);
 	var actualCost = bonds * bondPrice;
 	var data = getBondProjectionData(actualCost, bondProjectionYears);
-	var html = '<thead><tr><th>Year</th><th>Opening Balance</th><th>Interest (15%)</th><th>Closing Balance</th><th>Cum. ROI</th></tr></thead><tbody>';
+	var html = '<thead><tr><th>Year</th><th>Principal</th><th>Annual Dividend (15%)</th><th>Cumulative Dividend</th><th>Cum. ROI</th></tr></thead><tbody>';
 	for (var i = 0; i < data.length; i++) {
-		html += '<tr><td>Year ' + data[i].year + '</td><td>' + formatTZS(data[i].startBal) + '</td><td>' + formatTZS(data[i].interest) + '</td><td>' + formatTZS(data[i].endBal) + '</td><td>' + data[i].roi + '%</td></tr>';
+		html += '<tr><td>Year ' + data[i].year + '</td><td>' + formatTZS(data[i].principal) + '</td><td>' + formatTZS(data[i].interest) + '</td><td>' + formatTZS(data[i].cumDividend) + '</td><td>' + data[i].roi + '%</td></tr>';
 	}
-	html += '<tr><td><strong>Total (' + bondProjectionYears + ' yrs)</strong></td><td><strong>' + formatTZS(actualCost) + '</strong></td><td><strong>' + formatTZS(data[data.length-1].cumInterest) + '</strong></td><td><strong>' + formatTZS(data[data.length-1].endBal) + '</strong></td><td><strong>' + data[data.length-1].roi + '%</strong></td></tr>';
+	html += '<tr><td><strong>Total (' + bondProjectionYears + ' yrs)</strong></td><td><strong>' + formatTZS(actualCost) + '</strong></td><td><strong>' + formatTZS(data[data.length-1].interest) + '/yr</strong></td><td><strong>' + formatTZS(data[data.length-1].cumDividend) + '</strong></td><td><strong>' + data[data.length-1].roi + '%</strong></td></tr>';
 	html += '</tbody>';
 	document.getElementById('bondProjectionTable').innerHTML = html;
 	document.getElementById('bondProjectionToggle').style.display = 'block';
@@ -792,19 +790,19 @@ function calcSharesByAmount() {
 		return;
 	}
 
-	if (amount > sharePrice * 20) {
+	if (amount > sharePrice * 100) {
 		resultsEl.style.display = 'none';
 		projEl.style.display = 'none';
 		errorEl.style.display = 'block';
-		errorEl.innerHTML = 'Maximum investment is <strong>' + formatTZS(sharePrice * 20) + '</strong> (20 shares).';
+		errorEl.innerHTML = 'Maximum investment is <strong>' + formatTZS(sharePrice * 100) + '</strong> (100 shares).';
 		return;
 	}
 
 	errorEl.style.display = 'none';
 	var shares = Math.floor(amount / sharePrice);
 	var actualCost = shares * sharePrice;
-	var bikes = shares * 5;
-	var ownership = shares;
+	var bikes = shares;
+	var ownership = (shares * 0.2).toFixed(1);
 	var profitPerBike1 = 1760000;
 	var profitPerBike2 = 3696000;
 	var profitPerBike3 = 7392000;
@@ -868,14 +866,15 @@ function calcBondsByAmount() {
 	errorEl.style.display = 'none';
 	var bonds = Math.floor(amount / bondPrice);
 	var actualCost = bonds * bondPrice;
-	var total = actualCost * Math.pow(1 + bondRate, bondYears);
-	var interest = total - actualCost;
-	var roiPct = ((interest / actualCost) * 100).toFixed(1);
+	var annualDividend = actualCost * bondRate;
+	var totalDividend = annualDividend * bondYears;
+	var total = actualCost + totalDividend;
+	var roiPct = ((totalDividend / actualCost) * 100).toFixed(1);
 
 	document.getElementById('bondCost').textContent = formatTZS(actualCost);
 	document.getElementById('bondCount').textContent = bonds.toLocaleString('en-US') + (bonds === 1 ? ' bond' : ' bonds');
 	document.getElementById('bondPeriod').textContent = bondYears + ' Years';
-	document.getElementById('bondInterest').textContent = formatTZS(interest);
+	document.getElementById('bondInterest').textContent = formatTZS(totalDividend);
 	document.getElementById('bondTotal').textContent = formatTZS(total);
 	document.getElementById('bondROI').textContent = '+' + roiPct + '%';
 
@@ -910,7 +909,7 @@ function exportCSV(type) {
 		var amount = parseAmount(document.getElementById('shareAmountInput').value);
 		var shares = Math.floor(amount / sharePrice);
 		var actualCost = shares * sharePrice;
-		var bikes = shares * 5;
+		var bikes = shares;
 		var data = getShareProjectionData(bikes, actualCost, shareProjectionYears);
 		title = 'Share Investment Projection';
 		subtitle = shares + ' Share' + (shares > 1 ? 's' : '') + ' &mdash; ' + shareProjectionYears + ' Year Projection';
@@ -941,17 +940,17 @@ function exportCSV(type) {
 		investAmount = formatTZS(actualCost);
 		tableRows = '<tr style="background:#116cd1;color:#fff;font-weight:bold;font-size:12px;text-transform:uppercase;letter-spacing:0.5px;">';
 		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Year</th>';
-		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Opening Balance</th>';
-		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Interest Earned</th>';
-		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Closing Balance</th>';
+		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Principal</th>';
+		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Annual Dividend (15%)</th>';
+		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Cumulative Dividend</th>';
 		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Cumulative ROI</th></tr>';
 		for (var i = 0; i < data.length; i++) {
 			var bg = (i % 2 === 0) ? '#fff' : '#f7f9fc';
 			var style = i === data.length - 1 ? 'font-weight:bold;background:#eaf2ff;border-bottom:2px solid #116cd1;' : 'background:' + bg + ';';
 			tableRows += '<tr><td style="padding:10px 15px;border:1px solid #e5e5e5;' + style + '">Year ' + data[i].year + '</td>';
-			tableRows += '<td style="padding:10px 15px;border:1px solid #e5e5e5;' + style + '">' + formatTZS(data[i].startBal) + '</td>';
+			tableRows += '<td style="padding:10px 15px;border:1px solid #e5e5e5;' + style + '">' + formatTZS(data[i].principal) + '</td>';
 			tableRows += '<td style="padding:10px 15px;border:1px solid #e5e5e5;' + style + '">' + formatTZS(data[i].interest) + '</td>';
-			tableRows += '<td style="padding:10px 15px;border:1px solid #e5e5e5;' + style + '">' + formatTZS(data[i].endBal) + '</td>';
+			tableRows += '<td style="padding:10px 15px;border:1px solid #e5e5e5;' + style + '">' + formatTZS(data[i].cumDividend) + '</td>';
 			tableRows += '<td style="padding:10px 15px;border:1px solid #e5e5e5;' + style + '">' + data[i].roi + '%</td></tr>';
 		}
 		filename += 'bond-projection-' + bondProjectionYears + 'yrs.xls';
@@ -976,7 +975,7 @@ function exportCSV(type) {
 	html += '</td>';
 	html += '<td style="text-align:right;font-size:12px;color:#ccd5e0;font-family:Segoe UI,Arial,sans-serif;line-height:1.9;">';
 	html += '&#9742; +255 767 306 986<br>';
-	html += '&#9993; Victorion@gmail.com<br>';
+	html += '&#9993; bodafastatanzania@gmail.com<br>';
 	html += '&#9873; Dar es Salaam, Tanzania<br>';
 	html += '&#127760; bodafasta.co.tz';
 	html += '</td>';
@@ -1096,7 +1095,7 @@ function printProjection(type) {
 	win.document.write('<div class="logo-side"><img src="' + logoUrl + '" alt="Bodafasta"><div class="brand"><span class="brand-name">BODAFASTA</span><span class="brand-tag">Motorcycle Transportation &bull; Tanzania</span></div></div>');
 	win.document.write('<div class="contact-side">');
 	win.document.write('<div><span class="c-icon">&#9742;</span>+255 767 306 986</div>');
-	win.document.write('<div><span class="c-icon">&#9993;</span><a href="mailto:Victorion@gmail.com">Victorion@gmail.com</a></div>');
+	win.document.write('<div><span class="c-icon">&#9993;</span><a href="mailto:bodafastatanzania@gmail.com">bodafastatanzania@gmail.com</a></div>');
 	win.document.write('<div><span class="c-icon">&#9873;</span>Dar es Salaam, Tanzania</div>');
 	win.document.write('<div><span class="c-icon">&#127760;</span><a href="https://bodafasta.co.tz">bodafasta.co.tz</a></div>');
 	win.document.write('</div></div>');
