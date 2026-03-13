@@ -51,7 +51,7 @@
 								<img src="images/resource/news-9.jpg" alt="" />
 							</div>
 							<div class="lower-content">
-								<div class="post-info"><span class="theme_color">Company News</span> -  January 15th, 2025 by <i>Admin</i></div>
+								<div class="post-info"><span class="theme_color">Company News</span> - January 15th</div>
 								<p>Bodafasta has officially launched its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first concrete step in our mission to professionalize Tanzania's bodaboda sector. The pilot phase is designed to test our operational model, refine our driver training programs, and validate our revenue projections before scaling to 100 motorcycles in 2026.</p>
 								<div class="middle-image">
 									<img src="images/resource/news-10.jpg" alt="Bodafasta pilot fleet motorcycles" />
@@ -85,11 +85,11 @@
 							<div class="news-block-four col-lg-6 col-md-6 col-sm-12">
 								<div class="inner-box">
 									<div class="image">
-										<a href="blog-detail"><img src="images/resource/news-4.jpg" alt="Bodafasta Safety" /></a>
+										<a href="blog-safety"><img src="images/resource/news-6.jpg" alt="Bodafasta Safety" /></a>
 									</div>
 									<div class="lower-content">
 										<div class="title">Safety</div>
-										<h4><a href="blog-detail">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
+										<h4><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
 									</div>
 								</div>
 							</div>
@@ -135,11 +135,11 @@
                             	<h4>Categories</h4>
                             </div>
                             <ul>
-								<li><a href="#">All <span>15</span></a></li>
-								<li><a href="#">Company News <span>5</span></a></li>
-								<li><a href="#">Investment <span>4</span></a></li>
-								<li><a href="#">Technology <span>3</span></a></li>
-								<li><a href="#">Safety & Growth <span>3</span></a></li>
+								<li><a href="#">All <span>4</span></a></li>
+								<li><a href="#">Company News <span>1</span></a></li>
+								<li><a href="#">Investment <span>1</span></a></li>
+								<li><a href="#">Safety <span>1</span></a></li>
+								<li><a href="#">Growth <span>1</span></a></li>
 							</ul>
                         </div>
 						
@@ -150,18 +150,18 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail">Bodafasta App Development: From Vision to Platform</a></div>
+                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-investment">Why Bodaboda Is East Africa's Next Big Opportunity</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail">How Bodafasta Ensures Rider Safety With Technology</a></div>
+                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-manufacturing">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
+                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></div>
                                 </div>
                             </div>
 						</div>

@@ -28,7 +28,7 @@
 	<!-- Map Section -->
 	<div class="map-section">
 		<div class="contact-map-area">
-			<iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.36584028498!2d39.1627775!3d-6.7924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4bae169bd6f1%3A0x940f6b26a086a1dd!2sDar%20es%20Salaam%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1984.3!2d39.141447!3d-6.730354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!1s0x0%3A0x0!5e0!3m2!1sen!2stz!4v1700000000000!5m2!1sen!2stz" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
 	</div>
 	<!-- End Map Section -->

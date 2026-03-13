@@ -51,7 +51,7 @@
 								<img src="images/resource/news-5.jpg" alt="Bodaboda investment opportunity in Tanzania" />
 							</div>
 							<div class="lower-content">
-								<div class="post-info"><span class="theme_color">Investment</span> - February 10th, 2025 by <i>Admin</i></div>
+								<div class="post-info"><span class="theme_color">Investment</span> - February 10th</div>
 								
 								<p>When investors think of high-growth sectors in Africa, technology and fintech often come to mind. But beneath the headlines lies one of the continent's most overlooked opportunities: motorcycle transportation. In Tanzania alone, bodaboda (motorcycle taxis) generate an estimated TZS 970 billion in annual revenue &mdash; and the market is growing at 15% per year with virtually no professional operators.</p>
 								
@@ -140,7 +140,7 @@
 									</div>
 									<div class="lower-content">
 										<div class="title">Safety</div>
-										<h4><a href="blog-detail">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
+										<h4><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></h4>
 									</div>
 								</div>
 							</div>
@@ -173,11 +173,11 @@
                             	<h4>Categories</h4>
                             </div>
                             <ul>
-								<li><a href="#">All <span>15</span></a></li>
-								<li><a href="#">Company News <span>5</span></a></li>
-								<li><a href="#">Investment <span>4</span></a></li>
-								<li><a href="#">Technology <span>3</span></a></li>
-								<li><a href="#">Safety & Growth <span>3</span></a></li>
+								<li><a href="#">All <span>4</span></a></li>
+								<li><a href="#">Company News <span>1</span></a></li>
+								<li><a href="#">Investment <span>1</span></a></li>
+								<li><a href="#">Safety <span>1</span></a></li>
+								<li><a href="#">Growth <span>1</span></a></li>
 							</ul>
                         </div>
 						
@@ -188,18 +188,18 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail">Bodafasta Launches Pilot Fleet in Dar es Salaam</a></div>
+                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-manufacturing">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-investment">Why Bodaboda Is East Africa's Next Big Opportunity</a></div>
+                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <div class="text"><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></div>
                                 </div>
                                 
                                 <div class="post">
                                     <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
-                                    <div class="text"><a href="blog-detail">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
+                                    <div class="text"><a href="blog-detail">Bodafasta Launches Pilot Fleet in Dar es Salaam</a></div>
                                 </div>
                             </div>
 						</div>
