@@ -29,7 +29,7 @@
 	<!-- Page Banner Image Section -->
     <div class="page-banner-image-section">
 		<div class="image">
-			<img src="images/background/1.jpg" alt="" />
+			<img src="images/background/12.jpg" alt="" />
 		</div>
 	</div>
 	<!-- End Page Banner Image Section -->
