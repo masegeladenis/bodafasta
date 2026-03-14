@@ -32,7 +32,7 @@
     <div class="banner-section">
 		<div class="main-slider-carousel owl-carousel owl-theme">
             
-			<div class="slide" data-bg-image="images/main-slider/intro-1.jpg">
+			<div class="slide" data-bg-image="https://images.pexels.com/photos/2519370/pexels-photo-2519370.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop">
 				<div class="auto-container w-100">
 					<div class="row clearfix">
 						
@@ -54,7 +54,7 @@
 				</div>
 			</div>
 			
-			<div class="slide" data-bg-image="images/main-slider/intro-1.jpg">
+			<div class="slide" data-bg-image="https://images.pexels.com/photos/30661408/pexels-photo-30661408.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop">
 				<div class="auto-container w-100">
 					<div class="row clearfix">
 						
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 			
-			<div class="slide" data-bg-image="images/main-slider/intro-1.jpg">
+			<div class="slide" data-bg-image="https://images.pexels.com/photos/33679981/pexels-photo-33679981.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop">
 				<div class="auto-container w-100">
 					<div class="row clearfix">
 						
