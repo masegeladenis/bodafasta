@@ -27,7 +27,7 @@
 	<?php include 'includes/navbar.php'; ?>
 	
 	<!-- Service Banner Section -->
-    <div class="service-banner-section" data-bg-image="images/background/service-bg.jpg">
+    <div class="service-banner-section" data-bg-image="https://images.pexels.com/photos/30661403/pexels-photo-30661403.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop">
 		<div class="auto-container">
 			<div class="content-box">
 				<h2>Our <span>Services</span></h2>
