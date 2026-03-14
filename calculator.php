@@ -433,6 +433,8 @@
 
 						<div class="calc-info-box">
 							<strong>1 Share</strong> = 1 Motorcycle = <strong>TZS 3,500,000</strong> = 0.2% Equity<br>
+							100 Shares = 20% of the company (80% remains with Bodafasta)<br>
+							Dividends paid from company net profit based on your ownership %<br>
 							Min: TZS 3,500,000 &nbsp;|&nbsp; Max: TZS 350,000,000 (100 shares)
 						</div>
 
@@ -466,15 +468,15 @@
 							</div>
 							<div class="calc-profit-box">
 								<div class="calc-result-row">
-									<span>Est. Profit (Year 1)</span>
+									<span>Est. Dividend (Year 1)</span>
 									<strong id="shareProfit1" class="highlight">&mdash;</strong>
 								</div>
 								<div class="calc-result-row">
-									<span>Est. Profit (Year 2)</span>
+									<span>Est. Dividend (Year 2)</span>
 									<strong id="shareProfit2" class="highlight">&mdash;</strong>
 								</div>
 								<div class="calc-result-row" style="margin-bottom:0;">
-									<span>Est. Profit (Year 3)</span>
+									<span>Est. Dividend (Year 3)</span>
 									<strong id="shareProfit3" class="highlight">&mdash;</strong>
 								</div>
 							</div>
@@ -653,8 +655,9 @@ var sharePrice = 3500000;
 var bondPrice = 70000;
 var shareProjectionYears = 3;
 var bondProjectionYears = 3;
+var annualNetProfit = 280000000;
 
-// Share growth multipliers: Year1 base, then ~2.1x growth per year
+// Net profit growth multipliers per year
 var shareGrowthRates = [1, 2.1, 2.0, 1.8, 1.6, 1.5, 1.4, 1.3, 1.25, 1.2];
 
 function formatTZS(n) {
@@ -676,24 +679,25 @@ function formatInput(el) {
 	}
 }
 
-function getShareProjectionData(bikes, cost, years) {
+function getShareProjectionData(shares, cost, years) {
 	var data = [];
-	var baseProfitPerBike = 1760000;
-	var cumProfit = 0;
-	var annualProfit = baseProfitPerBike * bikes;
+	var ownershipFraction = shares * 0.002;
+	var cumDividend = 0;
+	var currentNetProfit = annualNetProfit;
 
 	for (var y = 1; y <= years; y++) {
-		if (y > 1 && y - 2 < shareGrowthRates.length) {
-			annualProfit = annualProfit * shareGrowthRates[y - 1];
+		if (y > 1 && y - 1 < shareGrowthRates.length) {
+			currentNetProfit = currentNetProfit * shareGrowthRates[y - 1];
 		} else if (y > 1) {
-			annualProfit = annualProfit * 1.15;
+			currentNetProfit = currentNetProfit * 1.15;
 		}
-		cumProfit += annualProfit;
-		var roi = ((cumProfit / cost) * 100).toFixed(1);
+		var yearDividend = ownershipFraction * currentNetProfit;
+		cumDividend += yearDividend;
+		var roi = ((cumDividend / cost) * 100).toFixed(1);
 		data.push({
 			year: y,
-			annualProfit: Math.round(annualProfit),
-			cumProfit: Math.round(cumProfit),
+			annualProfit: Math.round(yearDividend),
+			cumProfit: Math.round(cumDividend),
 			roi: roi
 		});
 	}
@@ -723,9 +727,8 @@ function renderShareProjection() {
 	if (amount < sharePrice) return;
 	var shares = Math.floor(amount / sharePrice);
 	var actualCost = shares * sharePrice;
-	var bikes = shares;
-	var data = getShareProjectionData(bikes, actualCost, shareProjectionYears);
-	var html = '<thead><tr><th>Year</th><th>Est. Annual Profit</th><th>Cumulative Profit</th><th>Cum. ROI</th></tr></thead><tbody>';
+	var data = getShareProjectionData(shares, actualCost, shareProjectionYears);
+	var html = '<thead><tr><th>Year</th><th>Est. Annual Dividend</th><th>Cumulative Dividend</th><th>Cum. ROI</th></tr></thead><tbody>';
 	for (var i = 0; i < data.length; i++) {
 		html += '<tr><td>Year ' + data[i].year + '</td><td>' + formatTZS(data[i].annualProfit) + '</td><td>' + formatTZS(data[i].cumProfit) + '</td><td>' + data[i].roi + '%</td></tr>';
 	}
@@ -803,12 +806,10 @@ function calcSharesByAmount() {
 	var actualCost = shares * sharePrice;
 	var bikes = shares;
 	var ownership = (shares * 0.2).toFixed(1);
-	var profitPerBike1 = 1760000;
-	var profitPerBike2 = 3696000;
-	var profitPerBike3 = 7392000;
-	var p1 = bikes * profitPerBike1;
-	var p2 = bikes * profitPerBike2;
-	var p3 = bikes * profitPerBike3;
+	var ownershipFraction = shares * 0.002;
+	var p1 = ownershipFraction * annualNetProfit;
+	var p2 = ownershipFraction * annualNetProfit * shareGrowthRates[1];
+	var p3 = ownershipFraction * annualNetProfit * shareGrowthRates[1] * shareGrowthRates[2];
 	var roi = ((p1 / actualCost) * 100).toFixed(0);
 
 	document.getElementById('shareCost').textContent = formatTZS(actualCost);
@@ -909,16 +910,15 @@ function exportCSV(type) {
 		var amount = parseAmount(document.getElementById('shareAmountInput').value);
 		var shares = Math.floor(amount / sharePrice);
 		var actualCost = shares * sharePrice;
-		var bikes = shares;
-		var data = getShareProjectionData(bikes, actualCost, shareProjectionYears);
+		var data = getShareProjectionData(shares, actualCost, shareProjectionYears);
 		title = 'Share Investment Projection';
 		subtitle = shares + ' Share' + (shares > 1 ? 's' : '') + ' &mdash; ' + shareProjectionYears + ' Year Projection';
 		investType = 'Equity Share';
 		investAmount = formatTZS(actualCost);
 		tableRows = '<tr style="background:#116cd1;color:#fff;font-weight:bold;font-size:12px;text-transform:uppercase;letter-spacing:0.5px;">';
 		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Year</th>';
-		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Est. Annual Profit</th>';
-		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Cumulative Profit</th>';
+		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Est. Annual Dividend</th>';
+		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Cumulative Dividend</th>';
 		tableRows += '<th style="padding:11px 15px;text-align:left;border:1px solid #0d5ab8;">Cumulative ROI</th></tr>';
 		for (var i = 0; i < data.length; i++) {
 			var bg = (i % 2 === 0) ? '#fff' : '#f7f9fc';
