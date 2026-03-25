@@ -17,6 +17,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Discover why Tanzania's bodaboda motorcycle sector represents one of East Africa's most compelling investment opportunities." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/blog-investment">
+<meta name="twitter:title" content="Why Bodaboda Transportation Is East Africa's Next Big Investment Opportunity">
+<meta name="twitter:description" content="Discover why Tanzania's bodaboda motorcycle sector represents one of East Africa's most compelling investment opportunities.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -28,11 +34,13 @@
 	<!-- Page Title Section -->
     <div class="page-title-section style-two">
     	<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li><a href="blog">Blog</a></li>
 				<li>Investment</li>
 			</ul>
+			</nav>
 			<h2>Why Bodaboda Transportation Is East Africa's <br> Next Big Investment Opportunity</h2>
 		</div>
 	</div>
@@ -188,17 +196,17 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-1.jpg" alt="Local motorcycle manufacturing vision"></a></figure>
                                     <div class="text"><a href="blog-manufacturing">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-2.jpg" alt="Rider safety with GPS and insurance"></a></figure>
                                     <div class="text"><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt="Bodafasta pilot fleet launch"></a></figure>
                                     <div class="text"><a href="blog-detail">Bodafasta Launches Pilot Fleet in Dar es Salaam</a></div>
                                 </div>
                             </div>
@@ -268,6 +276,35 @@
 	</div>
 	
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Why Bodaboda Transportation Is East Africa's Next Big Investment Opportunity",
+  "description": "Discover why Tanzania's bodaboda motorcycle sector represents one of East Africa's most compelling investment opportunities.",
+  "image": "https://bodafasta.co.tz/images/logo.png",
+  "url": "https://bodafasta.co.tz/blog-investment",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bodafasta Tanzania",
+    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-investment" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Investment Opportunity", "item": "https://bodafasta.co.tz/blog-investment" }
+  ]
+}
+</script>
 	
 </div>
 <!--End pagewrapper-->

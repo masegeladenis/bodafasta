@@ -17,6 +17,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Contact Bodafasta Tanzania for ride services, parcel delivery, investment inquiries, or partnership opportunities." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/contact">
+<meta name="twitter:title" content="Contact Bodafasta - Get In Touch With Us">
+<meta name="twitter:description" content="Contact Bodafasta Tanzania for ride services, parcel delivery, investment inquiries, or partnership opportunities.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -120,6 +126,37 @@
 	
 
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Bodafasta",
+  "url": "https://bodafasta.co.tz/contact",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Bodafasta Tanzania",
+    "email": "bodafastatanzania@gmail.com",
+    "telephone": "+255767306986",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dar es Salaam",
+      "addressCountry": "TZ"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
+    { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://bodafasta.co.tz/contact" }
+  ]
+}
+</script>
 
 </div>
 <!--End pagewrapper-->

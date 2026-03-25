@@ -19,6 +19,11 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta is transforming the bodaboda industry in Tanzania with technology-driven motorcycle transportation services. Join us as an investor." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/">
+<meta name="twitter:title" content="Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania">
+<meta name="twitter:description" content="Bodafasta is transforming the bodaboda industry in Tanzania with technology-driven motorcycle transportation services.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -662,6 +667,41 @@
 <script src="js/jquery.paroller.min.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/script.js"></script>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Bodafasta Tanzania",
+  "url": "https://bodafasta.co.tz",
+  "logo": "https://bodafasta.co.tz/images/logo.png",
+  "description": "Revolutionizing motorcycle transportation in Tanzania through technology, safety, and sustainable employment.",
+  "email": "bodafastatanzania@gmail.com",
+  "telephone": "+255767306986",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dar es Salaam",
+    "addressCountry": "TZ"
+  },
+  "sameAs": [
+    "https://wa.me/255767306986"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Bodafasta",
+  "url": "https://bodafasta.co.tz",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://bodafasta.co.tz/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
 </body>
 

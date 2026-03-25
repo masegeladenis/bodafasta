@@ -17,6 +17,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Learn how Bodafasta uses GPS tracking by SMC Technology and comprehensive insurance to set a new safety standard for bodaboda riders in Tanzania." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/blog-safety">
+<meta name="twitter:title" content="How Bodafasta Is Revolutionizing Rider Safety With GPS and Insurance">
+<meta name="twitter:description" content="Learn how Bodafasta uses GPS tracking and comprehensive insurance to set a new safety standard for bodaboda riders in Tanzania.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -28,11 +34,13 @@
 	<!-- Page Title Section -->
     <div class="page-title-section style-two">
     	<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li><a href="blog">Blog</a></li>
 				<li>Safety</li>
 			</ul>
+			</nav>
 			<h2>How Bodafasta Is Revolutionizing Rider <br> Safety With GPS and Insurance</h2>
 		</div>
 	</div>
@@ -183,17 +191,17 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt="Bodaboda investment opportunity in East Africa"></a></figure>
                                     <div class="text"><a href="blog-investment">Why Bodaboda Is East Africa's Next Big Opportunity</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-2.jpg" alt="Local motorcycle manufacturing vision"></a></figure>
                                     <div class="text"><a href="blog-manufacturing">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt="Bodafasta pilot fleet launch"></a></figure>
                                     <div class="text"><a href="blog-detail">Bodafasta Launches Pilot Fleet in Dar es Salaam</a></div>
                                 </div>
                             </div>
@@ -263,11 +271,38 @@
 	</div>
 	
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Bodafasta Is Revolutionizing Rider Safety With GPS and Insurance",
+  "description": "Learn how Bodafasta uses GPS tracking and comprehensive insurance to set a new safety standard for bodaboda riders in Tanzania.",
+  "image": "https://bodafasta.co.tz/images/logo.png",
+  "url": "https://bodafasta.co.tz/blog-safety",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bodafasta Tanzania",
+    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-safety" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Rider Safety", "item": "https://bodafasta.co.tz/blog-safety" }
+  ]
+}
+</script>
 	
 </div>
 <!--End pagewrapper-->
-
-<!-- Search Popup -->
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>

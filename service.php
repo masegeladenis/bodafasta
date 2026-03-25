@@ -18,6 +18,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Explore Bodafasta services: on-demand rides, parcel delivery, scheduled rides, GPS tracking, and the Bodafasta App." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/service">
+<meta name="twitter:title" content="Bodafasta Services - Motorcycle Transportation & Delivery">
+<meta name="twitter:description" content="Explore Bodafasta services: on-demand rides, parcel delivery, scheduled rides, GPS tracking, and the Bodafasta App.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -316,6 +322,35 @@
 
 	
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
+    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bodafasta.co.tz/service" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Motorcycle Transportation & Delivery",
+  "provider": {
+    "@type": "Organization",
+    "name": "Bodafasta Tanzania",
+    "url": "https://bodafasta.co.tz"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dar es Salaam, Tanzania"
+  },
+  "description": "On-demand motorcycle rides, parcel delivery, scheduled rides, and GPS-tracked transportation services across Tanzania."
+}
+</script>
 	
 </div>
 <!--End pagewrapper-->

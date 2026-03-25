@@ -16,6 +16,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Explore Bodafasta's growth plan, financial projections, and investment opportunity." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/project">
+<meta name="twitter:title" content="Bodafasta Growth Plan - Investment & Financial Projections">
+<meta name="twitter:description" content="Explore Bodafasta's growth plan, financial projections, and investment opportunity.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -27,10 +33,12 @@
 	<!-- Page Title Section -->
     <div class="page-title-section">
     	<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li>Growth Plan</li>
 			</ul>
+			</nav>
 			<h2><span>Investment</span> & Growth Plan</h2>
 		</div>
 	</div>
@@ -106,7 +114,7 @@
 					<div class="gallery-block">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/gallery/1.jpg" alt="" />
+								<img src="images/gallery/1.jpg" alt="Bodafasta investment growth plan" />
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<h3><a href="project-details">Invest in Bodafasta</a></h3>

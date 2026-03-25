@@ -17,6 +17,11 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta is transforming bodaboda transportation in Tanzania through asset ownership, a technology-driven app, and comprehensive driver training." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/about">
+<meta name="twitter:title" content="About Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania">
+<meta name="twitter:description" content="Bodafasta is transforming bodaboda transportation in Tanzania through asset ownership, a technology-driven app, and comprehensive driver training.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -29,7 +34,7 @@
 	<!-- Page Banner Image Section -->
     <div class="page-banner-image-section">
 		<div class="image">
-			<img src="images/background/12.jpg" alt="" />
+			<img src="images/background/12.jpg" alt="Bodafasta motorcycle transportation in Dar es Salaam" />
 		</div>
 	</div>
 	<!-- End Page Banner Image Section -->
@@ -164,6 +169,18 @@
 	<!-- End Reputation Section -->
 	
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
+    { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://bodafasta.co.tz/about" }
+  ]
+}
+</script>
 	
 </div>
 <!--End pagewrapper-->

@@ -17,6 +17,11 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Detailed investment breakdown for Bodafasta Tanzania. Share investment from TZS 3.5M and bonds from TZS 70K with 15% annual dividend." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/project-details">
+<meta name="twitter:title" content="Bodafasta Investment Details - Shares & Bonds">
+<meta name="twitter:description" content="Detailed investment breakdown for Bodafasta Tanzania. Share investment from TZS 3.5M and bonds from TZS 70K with 15% annual dividend.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -29,10 +34,12 @@
 	<!-- Page Title Section -->
     <div class="page-title-section">
     	<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li>Investment Details</li>
 			</ul>
+			</nav>
 			<h2><span>Investment</span> Opportunity Details</h2>
 		</div>
 	</div>

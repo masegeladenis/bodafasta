@@ -17,6 +17,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Latest news and updates from Bodafasta Tanzania &mdash; motorcycle transportation, logistics, and investment." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/blog">
+<meta name="twitter:title" content="Bodafasta News & Updates">
+<meta name="twitter:description" content="Latest news and updates from Bodafasta Tanzania — motorcycle transportation, logistics, and investment.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -28,10 +34,12 @@
 	<!-- Page Title Section -->
     <div class="page-title-section">
     	<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li>News & Updates</li>
 			</ul>
+			</nav>
 			<h2><span>Latest</span> News & Updates</h2>
 		</div>
 	</div>
@@ -136,17 +144,17 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt="Bodaboda investment opportunity in East Africa"></a></figure>
                                     <div class="text"><a href="blog-investment">Why Bodaboda Is East Africa's Next Big Opportunity</a></div>
 								</div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-2.jpg" alt="Local motorcycle manufacturing vision"></a></figure>
                                     <div class="text"><a href="blog-manufacturing">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-3.jpg" alt="Rider safety with GPS and insurance"></a></figure>
                                     <div class="text"><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></div>
                                 </div>
                             </div>
@@ -174,6 +182,22 @@
 	</div>
 	
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Bodafasta News & Updates",
+  "url": "https://bodafasta.co.tz/blog",
+  "description": "Latest news and updates from Bodafasta Tanzania.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bodafasta Tanzania",
+    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+  }
+}
+</script>
 	
 </div>
 <!--End pagewrapper-->

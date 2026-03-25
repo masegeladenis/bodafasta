@@ -17,6 +17,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Discover the Bodafasta App &mdash; ride-hailing, parcel delivery, GPS tracking, and digital payments for motorcycle transportation in Tanzania." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/service-detail">
+<meta name="twitter:title" content="Bodafasta App - Technology-Driven Motorcycle Transportation">
+<meta name="twitter:description" content="Discover the Bodafasta App — ride-hailing, parcel delivery, GPS tracking, and digital payments for motorcycle transportation in Tanzania.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -104,7 +110,7 @@
 										<div class="column col-lg-6 col-md-6 col-sm-12">
 											<h4>Market Growth & Projections</h4>
 											<div class="graph-image">
-												<img src="images/resource/graph.jpg" alt="" />
+												<img src="images/resource/graph.jpg" alt="Bodafasta business growth projections" />
 											</div>
 										</div>
 									</div>

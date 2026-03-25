@@ -20,10 +20,10 @@
 						<!-- Social Box -->
 						<ul class="social-box">
 							<li class="share">Our Social</li>
-							<li><a href="#" class="icofont-twitter"></a></li>
-							<li><a href="#" class="icofont-facebook"></a></li>
-							<li><a href="#" class="icofont-instagram"></a></li>
-							<li><a href="https://wa.me/255767306986" class="icofont-brand-whatsapp"></a></li>
+							<li><a href="#" class="icofont-twitter" aria-label="Twitter"></a></li>
+							<li><a href="#" class="icofont-facebook" aria-label="Facebook"></a></li>
+							<li><a href="#" class="icofont-instagram" aria-label="Instagram"></a></li>
+							<li><a href="https://wa.me/255767306986" target="_blank" rel="noopener noreferrer" class="icofont-brand-whatsapp" aria-label="WhatsApp"></a></li>
 						</ul>
                     </div>
 					

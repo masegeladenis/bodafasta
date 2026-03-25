@@ -17,6 +17,11 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/blog-detail">
+<meta name="twitter:title" content="Bodafasta Launches Pilot Fleet in Dar es Salaam">
+<meta name="twitter:description" content="Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -29,10 +34,12 @@
 	<!-- Page Title Section -->
     <div class="page-title-section style-two">
     	<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li>News Detail</li>
 			</ul>
+			</nav>
 			<h2>Bodafasta Launches Pilot Fleet of 5 <br> Motorcycles in Dar es Salaam</h2>
 		</div>
 	</div>
@@ -48,7 +55,7 @@
 					<div class="blog-detail">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/resource/news-9.jpg" alt="" />
+								<img src="images/resource/news-9.jpg" alt="Bodafasta pilot fleet launch in Dar es Salaam" />
 							</div>
 							<div class="lower-content">
 								<div class="post-info"><span class="theme_color">Company News</span> - January 15th</div>
@@ -150,17 +157,17 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt="Bodaboda investment opportunity in East Africa"></a></figure>
                                     <div class="text"><a href="blog-investment">Why Bodaboda Is East Africa's Next Big Opportunity</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-manufacturing"><img src="images/resource/post-thumb-2.jpg" alt="Local motorcycle manufacturing vision"></a></figure>
                                     <div class="text"><a href="blog-manufacturing">Local Manufacturing: Bodafasta's Vision for Tanzania</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-3.jpg" alt="Rider safety with GPS and insurance"></a></figure>
                                     <div class="text"><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></div>
                                 </div>
                             </div>
@@ -230,11 +237,38 @@
 	</div>
 	
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bodafasta Launches Pilot Fleet of 5 Motorcycles in Dar es Salaam",
+  "description": "Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector.",
+  "image": "https://bodafasta.co.tz/images/resource/news-9.jpg",
+  "url": "https://bodafasta.co.tz/blog-detail",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bodafasta Tanzania",
+    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-detail" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Pilot Fleet Launch", "item": "https://bodafasta.co.tz/blog-detail" }
+  ]
+}
+</script>
 	
 </div>
 <!--End pagewrapper-->
-
-<!-- Search Popup -->
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>

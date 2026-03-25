@@ -17,6 +17,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta's long-term vision includes local motorcycle manufacturing in Tanzania, reducing import costs and creating jobs." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/blog-manufacturing">
+<meta name="twitter:title" content="Local Motorcycle Manufacturing: Bodafasta's Long-Term Vision for Tanzania">
+<meta name="twitter:description" content="Bodafasta's long-term vision includes local motorcycle manufacturing in Tanzania, reducing import costs and creating jobs.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 </head>
 
 <body>
@@ -28,11 +34,13 @@
 	<!-- Page Title Section -->
     <div class="page-title-section style-two">
     	<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li><a href="blog">Blog</a></li>
 				<li>Growth</li>
 			</ul>
+			</nav>
 			<h2>Local Motorcycle Manufacturing: <br> Bodafasta's Long-Term Vision for Tanzania</h2>
 		</div>
 	</div>
@@ -190,17 +198,17 @@
                             </div>
                             <div class="widget-content">
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-investment"><img src="images/resource/post-thumb-1.jpg" alt="Bodaboda investment opportunity in East Africa"></a></figure>
                                     <div class="text"><a href="blog-investment">Why Bodaboda Is East Africa's Next Big Opportunity</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-safety"><img src="images/resource/post-thumb-2.jpg" alt="Rider safety with GPS and insurance"></a></figure>
                                     <div class="text"><a href="blog-safety">How Bodafasta Is Revolutionizing Rider Safety</a></div>
                                 </div>
                                 
                                 <div class="post">
-                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
+                                    <figure class="post-thumb"><a href="blog-detail"><img src="images/resource/post-thumb-3.jpg" alt="Bodafasta pilot fleet launch"></a></figure>
                                     <div class="text"><a href="blog-detail">Bodafasta Launches Pilot Fleet in Dar es Salaam</a></div>
                                 </div>
                             </div>
@@ -270,11 +278,38 @@
 	</div>
 	
 	<?php include 'includes/footer.php'; ?>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Local Motorcycle Manufacturing: Bodafasta's Long-Term Vision for Tanzania",
+  "description": "Bodafasta's long-term vision includes local motorcycle manufacturing in Tanzania, reducing import costs and creating jobs.",
+  "image": "https://bodafasta.co.tz/images/logo.png",
+  "url": "https://bodafasta.co.tz/blog-manufacturing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bodafasta Tanzania",
+    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-manufacturing" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Local Manufacturing", "item": "https://bodafasta.co.tz/blog-manufacturing" }
+  ]
+}
+</script>
 	
 </div>
 <!--End pagewrapper-->
-
-<!-- Search Popup -->
 <div class="search-popup">
 	<button class="close-search style-two"><span class="icofont-brand-nexus"></span></button>
 	<button class="close-search"><span class="icofont-arrow-up"></span></button>

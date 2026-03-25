@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+
+Sitemap: https://bodafasta.co.tz/sitemap.xml

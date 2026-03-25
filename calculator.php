@@ -17,6 +17,12 @@
 <meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Estimate your returns from Bodafasta share and bond investments." />
 
+<!-- Canonical & Twitter -->
+<link rel="canonical" href="https://bodafasta.co.tz/calculator">
+<meta name="twitter:title" content="Bodafasta Investment Calculator - Calculate Your Returns">
+<meta name="twitter:description" content="Estimate your returns from Bodafasta share and bond investments.">
+<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+
 <style>
 /* Calculator Section Styles */
 .calc-section .boxed-inner {
@@ -260,10 +266,12 @@
 	<!-- Page Title Section -->
 	<div class="page-title-section">
 		<div class="auto-container">
+			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
 				<li><a href="index">Home</a></li>
 				<li>Investment Calculator</li>
 			</ul>
+			</nav>
 			<h2><span>Investment</span> Calculator</h2>
 		</div>
 	</div>
