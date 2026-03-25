@@ -20,8 +20,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
-<link rel="shortcut icon" href="/images/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-96x96.png">
-<meta name="msapplication-TileImage" content="/images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon-96x96.png">
+<meta name="msapplication-TileImage" content="images/favicon-96x96.png">
