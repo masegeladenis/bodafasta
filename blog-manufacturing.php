@@ -36,7 +36,7 @@
     	<div class="auto-container">
 			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
-				<li><a href="index">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li><a href="blog">Blog</a></li>
 				<li>Growth</li>
 			</ul>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -20,7 +20,7 @@
 <!-- Canonical & Twitter -->
 <link rel="canonical" href="https://bodafasta.co.tz/blog">
 <meta name="twitter:title" content="Bodafasta News & Updates">
-<meta name="twitter:description" content="Latest news and updates from Bodafasta Tanzania — motorcycle transportation, logistics, and investment.">
+<meta name="twitter:description" content="Latest news and updates from Bodafasta Tanzania &mdash; motorcycle transportation, logistics, and investment.">
 <meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
 
 </head>
@@ -36,7 +36,7 @@
     	<div class="auto-container">
 			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
-				<li><a href="index">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li>News & Updates</li>
 			</ul>
 			</nav>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -36,7 +36,7 @@
     	<div class="auto-container">
 			<nav aria-label="breadcrumb">
 			<ul class="post-meta">
-				<li><a href="index">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li>Investment Details</li>
 			</ul>
 			</nav>

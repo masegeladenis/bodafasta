@@ -13,7 +13,7 @@
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget logo-widget">
 									<div class="logo">
-										<a href="index"><img src="images/logo.png" alt="Bodafasta" /></a>
+										<a href="/"><img src="images/logo.png" alt="Bodafasta" /></a>
 									</div>
 									<div class="text" style="margin-bottom:15px;">Revolutionizing motorcycle transportation in Tanzania through technology, safety, and sustainable employment.</div>
 									<div class="call">

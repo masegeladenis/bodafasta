@@ -37,7 +37,7 @@
             	<div class="inner-container clearfix">
                 	
                 	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="index"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
+                    	<div class="logo"><a href="/"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
                     </div>
 					
                    	<div class="nav-outer pull-left clearfix">
@@ -53,7 +53,7 @@
 
 							<div class="navbar-collapse show collapse clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li><a href="index">Home</a></li>
+									<li><a href="/">Home</a></li>
 									<li><a href="about">About Us</a></li>
 									<li class="dropdown"><a href="service">Services</a>
 										<ul>
@@ -96,7 +96,7 @@
             <div class="close-btn"><span class="icon lnr lnr-cross"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
+                <div class="nav-logo"><a href="/"><img src="images/logo.png" alt="Bodafasta" title="Bodafasta"></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->
