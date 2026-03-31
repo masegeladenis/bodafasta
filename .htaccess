@@ -4,11 +4,9 @@
 RewriteEngine On
 
 # Canonical domain + protocol:
-# - force HTTPS
+# - force HTTPS (Cloudways-safe: uses proxy header only)
 # - force non-www
-RewriteCond %{HTTP_HOST} ^(?:www\.)?bodafasta\.co\.tz$ [NC]
-RewriteCond %{HTTP_HOST} ^www\. [NC,OR]
-RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^www\.bodafasta\.co\.tz$ [NC,OR]
 RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
 RewriteRule ^ https://bodafasta.co.tz%{REQUEST_URI} [L,R=301]
 
@@ -21,16 +19,13 @@ Options -Indexes
 
 # Redirect .php URLs to clean URLs (301 permanent redirect)
 # This ensures search engines and users see clean URLs
-RewriteCond %{THE_REQUEST} \s(.+?)\.php[\s?] [NC]
-RewriteRule ^(.+)\.php$ $1 [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^(.+)\.php$ /$1 [R=301,L]
 
-# Remove .php extension
-# If the request is not a directory and not a real file
-# and the .php version exists, serve it
+# Internally map clean URL to .php file (no loop: skips real files/dirs)
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)$ $1.php [L,QSA]
+RewriteRule ^(.+)$ $1.php [L]
 
 # Security headers
 <IfModule mod_headers.c>
