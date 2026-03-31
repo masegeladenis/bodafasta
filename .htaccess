@@ -1,6 +1,9 @@
 RewriteEngine On
 
-# ONLY handle www → non-www (leave HTTPS to Cloudways)
+# Force a single canonical production host for crawlable URLs.
+# Local development hosts are excluded so XAMPP remains usable.
+RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:\d+)?$ [NC]
+RewriteCond %{HTTP_HOST} !^\[::1\](:\d+)?$ [NC]
 RewriteCond %{HTTP_HOST} ^www\.bodafasta\.co\.tz$ [NC]
 RewriteRule ^ https://bodafasta.co.tz%{REQUEST_URI} [L,R=301]
 
@@ -12,7 +15,12 @@ RewriteRule ^index(?:\.php)?$ / [L,R=301]
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^(.+)\.php$ /$1 [R=301,L]
 
+# Remove trailing slashes from non-directory URLs.
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
 # Internal rewrite (no loop)
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)$ $1.php [L]
+RewriteRule ^(.+)$ $1.php [L,QSA]
