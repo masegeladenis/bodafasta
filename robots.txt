@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /includes/
 
-Sitemap: https://bodafasta.co.tz/sitemap.xml
+Sitemap: https://www.bodafasta.co.tz/sitemap.xml

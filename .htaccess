@@ -4,8 +4,9 @@ RewriteEngine On
 # Local development hosts are excluded so XAMPP remains usable.
 RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:\d+)?$ [NC]
 RewriteCond %{HTTP_HOST} !^\[::1\](:\d+)?$ [NC]
-RewriteCond %{HTTP_HOST} ^www\.bodafasta\.co\.tz$ [NC]
-RewriteRule ^ https://bodafasta.co.tz%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^bodafasta\.co\.tz$ [NC,OR]
+RewriteCond %{HTTP_HOST} !^www\.bodafasta\.co\.tz$ [NC]
+RewriteRule ^ https://www.bodafasta.co.tz%{REQUEST_URI} [L,R=301]
 
 # Redirect index to root
 RewriteCond %{THE_REQUEST} \s/+index(?:\.php)?[\s?] [NC]
