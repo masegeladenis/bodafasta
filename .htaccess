@@ -1,62 +1,18 @@
-# Bodafasta .htaccess
-# Works both at domain root (Cloudways) and in subdirectory (localhost/bodafasta)
-
 RewriteEngine On
 
-# Canonical domain + protocol:
-# - force HTTPS (Cloudways-safe: uses proxy header only)
-# - force non-www
-RewriteCond %{HTTP_HOST} ^www\.bodafasta\.co\.tz$ [NC,OR]
-RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+# ONLY handle www → non-www (leave HTTPS to Cloudways)
+RewriteCond %{HTTP_HOST} ^www\.bodafasta\.co\.tz$ [NC]
 RewriteRule ^ https://bodafasta.co.tz%{REQUEST_URI} [L,R=301]
 
-# Canonical homepage: redirect /index and /index.php to /
+# Redirect index to root
 RewriteCond %{THE_REQUEST} \s/+index(?:\.php)?[\s?] [NC]
 RewriteRule ^index(?:\.php)?$ / [L,R=301]
 
-# Prevent directory listing
-Options -Indexes
-
-# Redirect .php URLs to clean URLs (301 permanent redirect)
-# This ensures search engines and users see clean URLs
+# Clean URLs: redirect .php → no extension
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^(.+)\.php$ /$1 [R=301,L]
 
-# Internally map clean URL to .php file (no loop: skips real files/dirs)
+# Internal rewrite (no loop)
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+)$ $1.php [L]
-
-# Security headers
-<IfModule mod_headers.c>
-    Header set X-Content-Type-Options "nosniff"
-    Header set X-Frame-Options "SAMEORIGIN"
-    Header set X-XSS-Protection "1; mode=block"
-    Header set Referrer-Policy "strict-origin-when-cross-origin"
-</IfModule>
-
-# Block access to sensitive files
-<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql)$">
-    Require all denied
-</FilesMatch>
-
-# Enable GZIP compression
-<IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
-    AddOutputFilterByType DEFLATE application/javascript application/json
-</IfModule>
-
-# Browser caching
-<IfModule mod_expires.c>
-    ExpiresActive On
-    ExpiresByType image/jpeg "access plus 1 month"
-    ExpiresByType image/png "access plus 1 month"
-    ExpiresByType image/gif "access plus 1 month"
-    ExpiresByType image/svg+xml "access plus 1 month"
-    ExpiresByType text/css "access plus 1 week"
-    ExpiresByType application/javascript "access plus 1 week"
-</IfModule>
-
-# Custom error pages (optional - uncomment and create these pages if needed)
-# ErrorDocument 404 /404.php
-# ErrorDocument 500 /500.php
