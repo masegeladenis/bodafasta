@@ -6,8 +6,10 @@ RewriteEngine On
 # Canonical domain + protocol:
 # - force HTTPS
 # - force non-www
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?bodafasta\.co\.tz$ [NC]
+RewriteCond %{HTTP_HOST} ^www\. [NC,OR]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
 RewriteRule ^ https://bodafasta.co.tz%{REQUEST_URI} [L,R=301]
 
 # Canonical homepage: redirect /index and /index.php to /
