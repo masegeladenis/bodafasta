@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta Launches Pilot Fleet in Dar es Salaam" />
-<meta property="og:url" content="https://bodafasta.co.tz/blog-detail" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/blog-detail" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/blog-detail">
+<link rel="canonical" href="https://www.bodafasta.co.tz/blog-detail">
 <meta name="twitter:title" content="Bodafasta Launches Pilot Fleet in Dar es Salaam">
 <meta name="twitter:description" content="Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -245,14 +245,14 @@
   "@type": "Article",
   "headline": "Bodafasta Launches Pilot Fleet of 5 Motorcycles in Dar es Salaam",
   "description": "Bodafasta launches its pilot fleet of 5 motorcycles in Dar es Salaam, marking the first step in professionalizing Tanzania's bodaboda sector.",
-  "image": "https://bodafasta.co.tz/images/resource/news-9.jpg",
-  "url": "https://bodafasta.co.tz/blog-detail",
+	"image": "https://www.bodafasta.co.tz/images/resource/news-9.jpg",
+	"url": "https://www.bodafasta.co.tz/blog-detail",
   "publisher": {
     "@type": "Organization",
     "name": "Bodafasta Tanzania",
-    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+		"logo": { "@type": "ImageObject", "url": "https://www.bodafasta.co.tz/images/logo.png" }
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-detail" }
+	"mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.bodafasta.co.tz/blog-detail" }
 }
 </script>
 <script type="application/ld+json">
@@ -260,9 +260,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
-    { "@type": "ListItem", "position": 3, "name": "Pilot Fleet Launch", "item": "https://bodafasta.co.tz/blog-detail" }
+		{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bodafasta.co.tz/" },
+		{ "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.bodafasta.co.tz/blog" },
+		{ "@type": "ListItem", "position": 3, "name": "Pilot Fleet Launch", "item": "https://www.bodafasta.co.tz/blog-detail" }
   ]
 }
 </script>

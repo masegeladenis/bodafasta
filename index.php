@@ -12,18 +12,18 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania" />
-<meta property="og:url" content="https://bodafasta.co.tz/" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
 
 <!-- For the og:image content, replace the # with a link of an image -->
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta is transforming the bodaboda industry in Tanzania with technology-driven motorcycle transportation services. Join us as an investor." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/">
+<link rel="canonical" href="https://www.bodafasta.co.tz/">
 <meta name="twitter:title" content="Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania">
 <meta name="twitter:description" content="Bodafasta is transforming the bodaboda industry in Tanzania with technology-driven motorcycle transportation services.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -674,8 +674,8 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Bodafasta Tanzania",
-  "url": "https://bodafasta.co.tz",
-  "logo": "https://bodafasta.co.tz/images/logo.png",
+	"url": "https://www.bodafasta.co.tz",
+	"logo": "https://www.bodafasta.co.tz/images/logo.png",
   "description": "Revolutionizing motorcycle transportation in Tanzania through technology, safety, and sustainable employment.",
   "email": "bodafastatanzania@gmail.com",
   "telephone": "+255767306986",
@@ -694,10 +694,10 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Bodafasta",
-  "url": "https://bodafasta.co.tz",
+	"url": "https://www.bodafasta.co.tz",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://bodafasta.co.tz/blog?q={search_term_string}",
+		"target": "https://www.bodafasta.co.tz/blog?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }

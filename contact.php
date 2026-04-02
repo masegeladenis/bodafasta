@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Contact Bodafasta - Get In Touch With Us" />
-<meta property="og:url" content="https://bodafasta.co.tz/contact" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/contact" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Contact Bodafasta Tanzania for ride services, parcel delivery, investment inquiries, or partnership opportunities." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/contact">
+<link rel="canonical" href="https://www.bodafasta.co.tz/contact">
 <meta name="twitter:title" content="Contact Bodafasta - Get In Touch With Us">
 <meta name="twitter:description" content="Contact Bodafasta Tanzania for ride services, parcel delivery, investment inquiries, or partnership opportunities.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -133,7 +133,7 @@
   "@context": "https://schema.org",
   "@type": "ContactPage",
   "name": "Contact Bodafasta",
-  "url": "https://bodafasta.co.tz/contact",
+	"url": "https://www.bodafasta.co.tz/contact",
   "mainEntity": {
     "@type": "Organization",
     "name": "Bodafasta Tanzania",
@@ -152,8 +152,8 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
-    { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://bodafasta.co.tz/contact" }
+		{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bodafasta.co.tz/" },
+		{ "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.bodafasta.co.tz/contact" }
   ]
 }
 </script>

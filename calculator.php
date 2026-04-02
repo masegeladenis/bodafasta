@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta Investment Calculator - Calculate Your Returns" />
-<meta property="og:url" content="https://bodafasta.co.tz/calculator" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/calculator" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Estimate your returns from Bodafasta share and bond investments." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/calculator">
+<link rel="canonical" href="https://www.bodafasta.co.tz/calculator">
 <meta name="twitter:title" content="Bodafasta Investment Calculator - Calculate Your Returns">
 <meta name="twitter:description" content="Estimate your returns from Bodafasta share and bond investments.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 <style>
 /* Calculator Section Styles */
@@ -1105,7 +1105,7 @@ function printProjection(type) {
 	win.document.write('<div><span class="c-icon">&#9742;</span>+255 767 306 986</div>');
 	win.document.write('<div><span class="c-icon">&#9993;</span><a href="mailto:bodafastatanzania@gmail.com">bodafastatanzania@gmail.com</a></div>');
 	win.document.write('<div><span class="c-icon">&#9873;</span>Dar es Salaam, Tanzania</div>');
-	win.document.write('<div><span class="c-icon">&#127760;</span><a href="https://bodafasta.co.tz">bodafasta.co.tz</a></div>');
+	win.document.write('<div><span class="c-icon">&#127760;</span><a href="https://www.bodafasta.co.tz">www.bodafasta.co.tz</a></div>');
 	win.document.write('</div></div>');
 
 	// Accent bar
@@ -1128,7 +1128,7 @@ function printProjection(type) {
 
 	// Footer
 	win.document.write('<div class="doc-footer">');
-	win.document.write('<div class="left"><div class="disclaimer">This is an estimate based on Bodafasta financial projections. Actual returns may vary based on market conditions and business performance.</div><div style="margin-top:6px;">For full investment details visit <a href="https://bodafasta.co.tz" style="color:#116cd1;">bodafasta.co.tz</a> or contact us directly.</div></div>');
+	win.document.write('<div class="left"><div class="disclaimer">This is an estimate based on Bodafasta financial projections. Actual returns may vary based on market conditions and business performance.</div><div style="margin-top:6px;">For full investment details visit <a href="https://www.bodafasta.co.tz" style="color:#116cd1;">www.bodafasta.co.tz</a> or contact us directly.</div></div>');
 	win.document.write('<div class="right"><strong style="color:#333;">Bodafasta Tanzania</strong><br>Dar es Salaam, Tanzania<br><a href="https://share.google/XMSp50emSaLLvYFLx">View Our Location</a></div>');
 	win.document.write('</div>');
 

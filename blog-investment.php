@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Why Bodaboda Transportation Is East Africa's Next Big Investment Opportunity" />
-<meta property="og:url" content="https://bodafasta.co.tz/blog-investment" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/blog-investment" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Discover why Tanzania's bodaboda motorcycle sector represents one of East Africa's most compelling investment opportunities." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/blog-investment">
+<link rel="canonical" href="https://www.bodafasta.co.tz/blog-investment">
 <meta name="twitter:title" content="Why Bodaboda Transportation Is East Africa's Next Big Investment Opportunity">
 <meta name="twitter:description" content="Discover why Tanzania's bodaboda motorcycle sector represents one of East Africa's most compelling investment opportunities.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -284,14 +284,14 @@
   "@type": "Article",
   "headline": "Why Bodaboda Transportation Is East Africa's Next Big Investment Opportunity",
   "description": "Discover why Tanzania's bodaboda motorcycle sector represents one of East Africa's most compelling investment opportunities.",
-  "image": "https://bodafasta.co.tz/images/logo.png",
-  "url": "https://bodafasta.co.tz/blog-investment",
+	"image": "https://www.bodafasta.co.tz/images/logo.png",
+	"url": "https://www.bodafasta.co.tz/blog-investment",
   "publisher": {
     "@type": "Organization",
     "name": "Bodafasta Tanzania",
-    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+		"logo": { "@type": "ImageObject", "url": "https://www.bodafasta.co.tz/images/logo.png" }
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-investment" }
+	"mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.bodafasta.co.tz/blog-investment" }
 }
 </script>
 <script type="application/ld+json">
@@ -299,9 +299,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
-    { "@type": "ListItem", "position": 3, "name": "Investment Opportunity", "item": "https://bodafasta.co.tz/blog-investment" }
+		{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bodafasta.co.tz/" },
+		{ "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.bodafasta.co.tz/blog" },
+		{ "@type": "ListItem", "position": 3, "name": "Investment Opportunity", "item": "https://www.bodafasta.co.tz/blog-investment" }
   ]
 }
 </script>

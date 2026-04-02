@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="How Bodafasta Is Revolutionizing Rider Safety With GPS and Insurance" />
-<meta property="og:url" content="https://bodafasta.co.tz/blog-safety" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/blog-safety" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Learn how Bodafasta uses GPS tracking by SMC Technology and comprehensive insurance to set a new safety standard for bodaboda riders in Tanzania." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/blog-safety">
+<link rel="canonical" href="https://www.bodafasta.co.tz/blog-safety">
 <meta name="twitter:title" content="How Bodafasta Is Revolutionizing Rider Safety With GPS and Insurance">
 <meta name="twitter:description" content="Learn how Bodafasta uses GPS tracking and comprehensive insurance to set a new safety standard for bodaboda riders in Tanzania.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -279,14 +279,14 @@
   "@type": "Article",
   "headline": "How Bodafasta Is Revolutionizing Rider Safety With GPS and Insurance",
   "description": "Learn how Bodafasta uses GPS tracking and comprehensive insurance to set a new safety standard for bodaboda riders in Tanzania.",
-  "image": "https://bodafasta.co.tz/images/logo.png",
-  "url": "https://bodafasta.co.tz/blog-safety",
+	"image": "https://www.bodafasta.co.tz/images/logo.png",
+	"url": "https://www.bodafasta.co.tz/blog-safety",
   "publisher": {
     "@type": "Organization",
     "name": "Bodafasta Tanzania",
-    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+		"logo": { "@type": "ImageObject", "url": "https://www.bodafasta.co.tz/images/logo.png" }
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-safety" }
+	"mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.bodafasta.co.tz/blog-safety" }
 }
 </script>
 <script type="application/ld+json">
@@ -294,9 +294,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
-    { "@type": "ListItem", "position": 3, "name": "Rider Safety", "item": "https://bodafasta.co.tz/blog-safety" }
+		{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bodafasta.co.tz/" },
+		{ "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.bodafasta.co.tz/blog" },
+		{ "@type": "ListItem", "position": 3, "name": "Rider Safety", "item": "https://www.bodafasta.co.tz/blog-safety" }
   ]
 }
 </script>

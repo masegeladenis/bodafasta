@@ -11,16 +11,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta Growth Plan - Investment & Financial Projections" />
-<meta property="og:url" content="https://bodafasta.co.tz/project" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/project" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Explore Bodafasta's growth plan, financial projections, and investment opportunity." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/project">
+<link rel="canonical" href="https://www.bodafasta.co.tz/project">
 <meta name="twitter:title" content="Bodafasta Growth Plan - Investment & Financial Projections">
 <meta name="twitter:description" content="Explore Bodafasta's growth plan, financial projections, and investment opportunity.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 

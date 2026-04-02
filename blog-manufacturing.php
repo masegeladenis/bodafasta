@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Local Motorcycle Manufacturing: Bodafasta's Long-Term Vision for Tanzania" />
-<meta property="og:url" content="https://bodafasta.co.tz/blog-manufacturing" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/blog-manufacturing" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta's long-term vision includes local motorcycle manufacturing in Tanzania, reducing import costs and creating jobs." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/blog-manufacturing">
+<link rel="canonical" href="https://www.bodafasta.co.tz/blog-manufacturing">
 <meta name="twitter:title" content="Local Motorcycle Manufacturing: Bodafasta's Long-Term Vision for Tanzania">
 <meta name="twitter:description" content="Bodafasta's long-term vision includes local motorcycle manufacturing in Tanzania, reducing import costs and creating jobs.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -286,14 +286,14 @@
   "@type": "Article",
   "headline": "Local Motorcycle Manufacturing: Bodafasta's Long-Term Vision for Tanzania",
   "description": "Bodafasta's long-term vision includes local motorcycle manufacturing in Tanzania, reducing import costs and creating jobs.",
-  "image": "https://bodafasta.co.tz/images/logo.png",
-  "url": "https://bodafasta.co.tz/blog-manufacturing",
+	"image": "https://www.bodafasta.co.tz/images/logo.png",
+	"url": "https://www.bodafasta.co.tz/blog-manufacturing",
   "publisher": {
     "@type": "Organization",
     "name": "Bodafasta Tanzania",
-    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+		"logo": { "@type": "ImageObject", "url": "https://www.bodafasta.co.tz/images/logo.png" }
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bodafasta.co.tz/blog-manufacturing" }
+	"mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.bodafasta.co.tz/blog-manufacturing" }
 }
 </script>
 <script type="application/ld+json">
@@ -301,9 +301,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bodafasta.co.tz/blog" },
-    { "@type": "ListItem", "position": 3, "name": "Local Manufacturing", "item": "https://bodafasta.co.tz/blog-manufacturing" }
+		{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bodafasta.co.tz/" },
+		{ "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.bodafasta.co.tz/blog" },
+		{ "@type": "ListItem", "position": 3, "name": "Local Manufacturing", "item": "https://www.bodafasta.co.tz/blog-manufacturing" }
   ]
 }
 </script>

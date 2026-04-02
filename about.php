@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="About Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania" />
-<meta property="og:url" content="https://bodafasta.co.tz/about" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/about" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Bodafasta is transforming bodaboda transportation in Tanzania through asset ownership, a technology-driven app, and comprehensive driver training." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/about">
+<link rel="canonical" href="https://www.bodafasta.co.tz/about">
 <meta name="twitter:title" content="About Bodafasta - Revolutionizing Motorcycle Transportation in Tanzania">
 <meta name="twitter:description" content="Bodafasta is transforming bodaboda transportation in Tanzania through asset ownership, a technology-driven app, and comprehensive driver training.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -176,8 +176,8 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bodafasta.co.tz/" },
-    { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://bodafasta.co.tz/about" }
+		{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bodafasta.co.tz/" },
+		{ "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.bodafasta.co.tz/about" }
   ]
 }
 </script>

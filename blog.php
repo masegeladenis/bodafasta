@@ -12,16 +12,16 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Bodafasta News & Updates" />
-<meta property="og:url" content="https://bodafasta.co.tz/blog" />
+<meta property="og:url" content="https://www.bodafasta.co.tz/blog" />
 <meta property="og:site_name" content="Bodafasta Tanzania" />
-<meta property="og:image" content="https://bodafasta.co.tz/images/logo.png" />
+<meta property="og:image" content="https://www.bodafasta.co.tz/images/logo.png" />
 <meta property="og:description" content="Latest news and updates from Bodafasta Tanzania &mdash; motorcycle transportation, logistics, and investment." />
 
 <!-- Canonical & Twitter -->
-<link rel="canonical" href="https://bodafasta.co.tz/blog">
+<link rel="canonical" href="https://www.bodafasta.co.tz/blog">
 <meta name="twitter:title" content="Bodafasta News & Updates">
 <meta name="twitter:description" content="Latest news and updates from Bodafasta Tanzania &mdash; motorcycle transportation, logistics, and investment.">
-<meta name="twitter:image" content="https://bodafasta.co.tz/images/logo.png">
+<meta name="twitter:image" content="https://www.bodafasta.co.tz/images/logo.png">
 
 </head>
 
@@ -189,12 +189,12 @@
   "@context": "https://schema.org",
   "@type": "Blog",
   "name": "Bodafasta News & Updates",
-  "url": "https://bodafasta.co.tz/blog",
+	"url": "https://www.bodafasta.co.tz/blog",
   "description": "Latest news and updates from Bodafasta Tanzania.",
   "publisher": {
     "@type": "Organization",
     "name": "Bodafasta Tanzania",
-    "logo": { "@type": "ImageObject", "url": "https://bodafasta.co.tz/images/logo.png" }
+		"logo": { "@type": "ImageObject", "url": "https://www.bodafasta.co.tz/images/logo.png" }
   }
 }
 </script>
